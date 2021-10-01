@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+theme name:		GPIBoy
+author:			Juliano Dorigão
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="screen">
+	  	<controllerActivity name="controllerActivity">
+			<pos>0.01 0.003</pos>
+			<size>0.055 0.035</size>
+			<itemSpacing>0.003</itemSpacing>
+			<color>003E0A</color>
+			<imagePath>./art/icons/gamepad.svg</imagePath>
+			<activityColor>003E0A</activityColor>
+			<hotkeyColor>82A314</hotkeyColor>
+		</controllerActivity>		
+	
+		<batteryIndicator name="batteryIndicator">
+			<pos>0.7 0.003</pos>
+			<size>0.08 0.08</size>
+			<incharge>./../art/battery/incharge.svg</incharge>
+			<full>./../art/battery/full.svg</full>
+			<at75>./../art/battery/75.svg</at75>
+			<at50>./../art/battery/50.svg</at50>
+			<at25>./../art/battery/25.svg</at25>
+			<empty>./../art/battery/empty.svg</empty>
+			<color>003E0A</color>
+			<alignment>center</alignment>
+			<verticalAlignment>center</verticalAlignment>
+		</batteryIndicator>
+
+		<text name="clock">
+			<pos>0.79 0.004</pos>
+			<size>0.21 0.065</size>	
+			<fontPath>./fonts/ds-digib.ttf</fontPath>
+			<fontSize>0.054</fontSize>
+			<color>003E0A</color>
+			<alignment>center</alignment>
+			<verticalAlignment>center</verticalAlignment>
+    	</text>
+	</view>
+</theme>

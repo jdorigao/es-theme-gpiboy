@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+theme name:		GPIBoy
+author:			Juliano Dorigão
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>    
+	<view name="system, basic, detailed, grid, video">
+		<image name="BottomBar" extra="static">
+			<tile>false</tile>
+			<size>1 0.065</size>
+			<pos>0 1</pos>
+			<origin>0 1</origin>
+			<path>./../art/images/bottom.png</path>
+			<zIndex>50</zIndex>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>003E0A</textColor>
+			<iconColor>003E0A</iconColor>
+			<fontPath>./fonts/futura-bold-bt.ttf</fontPath>
+			<fontSize>0.035</fontSize>
+			<pos>0.01 0.95</pos>
+		</helpsystem>
+	</view>
+</theme>
