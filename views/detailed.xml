@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+theme name:		GPIBoy
+author:			Juliano Dorigão
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+    <view name="detailed">
+        <carousel name="systemcarousel">
+			<color>FAFAFF00</color>
+			<colorEnd>FAFAFF00</colorEnd>			
+			<maxLogoCount>1</maxLogoCount>
+		</carousel>
+
+		<text name="logoText">
+			<fontPath>./fonts/arcade-regular.ttf</fontPath>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.14</pos>
+			<fontSize>0.053</fontSize>
+			<color>002105</color>
+			<alignment>center</alignment>
+			<forceUppercase>true</forceUppercase> 
+		</text>
+
+		<image name="BottomTitle" extra="static">
+			<tile>false</tile>
+			<size>1 0.007</size>
+			<pos>0 0.19</pos>
+			<origin>0 1</origin>
+			<path>./../art/images/bottom-up.png</path>
+			<zIndex>50</zIndex>
+		</image>
+        
+        <textlist name="gamelist">
+			<origin>0 0.5</origin>
+			<pos>0 0.61</pos>
+			<size>0.55 0.74</size>
+            <alignment>left</alignment>
+			<selectorColor>003E0A</selectorColor> <!-- Selection bar -->
+			<selectedColor>94A594</selectedColor> <!-- Selection letters -->
+			<primaryColor>002105</primaryColor> <!-- Letters -->
+			<fontPath>./fonts/arcade-regular.ttf</fontPath>
+			<fontSize>0.045</fontSize>
+			<horizontalMargin>0.03</horizontalMargin>
+			<scrollSound>./art/sound/scroll.wav</scrollSound>
+		</textlist>
+
+        <video name="md_video">
+            <origin>0.5 0.5</origin>
+            <pos>0.77 0.48</pos>            
+			<maxSize>0.38 0.49</maxSize>
+            <delay>1.4</delay>
+            <showSnapshotNoVideo>true</showSnapshotNoVideo>
+            <showSnapshotDelay>true</showSnapshotDelay>
+            <loops>1</loops>
+            <roundCorners>0.02</roundCorners>
+            <zIndex>30</zIndex>
+        </video>
+
+        <rating name="md_rating">
+            <origin>0.5 0.5</origin>
+            <pos>0.67 0.8</pos>
+            <size>0.08 0.08</size>
+            <horizontalAlignment>center</horizontalAlignment>
+            <color>003E0A</color>
+            <unfilledColor>94A594</unfilledColor>
+            <unfilledPath>:/star_filled.svg</unfilledPath>
+        </rating>
+
+    </view>
+</theme>

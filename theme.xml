@@ -11,8 +11,9 @@ author:			Juliano Dorigão
     <include>./views/help.xml</include>
     <include>./views/menu.xml</include>
     <include>./views/basic.xml</include>
+    <include>./views/detailed.xml</include>
     
-    <view name="system, basic">
+    <view name="system, basic, detailed">
         <image name="background" extra="true">
             <size>1 1</size>
             <pos>0 0</pos>

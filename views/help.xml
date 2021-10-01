@@ -6,7 +6,7 @@ author:			Juliano Dorigão
 
 <theme>
     <formatVersion>7</formatVersion>    
-	<view name="system, basic">
+	<view name="system, basic, detailed">
 		<image name="BottomBar" extra="static">
 			<tile>false</tile>
 			<size>1 0.065</size>
