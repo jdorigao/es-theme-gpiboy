@@ -7,21 +7,21 @@
         <menuText name="menutitle">
             <fontPath>./fonts/arcade-regular.ttf</fontPath>
             <fontSize>0.055</fontSize>
-            <color>002105</color>
+            <color>94A594</color>
         </menuText>
 
         <menuText name="menufooter">
             <fontPath>./fonts/arcade-regular.ttf</fontPath>          
             <fontSize>0.035</fontSize>
-            <color>001B04</color>
+            <color>94A594</color>
         </menuText>
 
         <menuText name="menutext">
             <fontPath>./fonts/arcade-regular.ttf</fontPath>
             <fontSize>0.05</fontSize>
-            <color>003E0A</color>
-            <separatorColor>5C7600</separatorColor>
-            <selectorColor>003E0A</selectorColor>
+            <color>94A594</color>
+            <separatorColor>293400</separatorColor>
+            <selectorColor>425400</selectorColor>
             <selectedColor>94A594</selectedColor>
         </menuText>
 
@@ -38,8 +38,7 @@
         </menuGroup>
 
         <menuBackground name="menubg">
-            <color>556E04</color>
-            <colorEnd>000000</colorEnd>
+            <color>002F08</color>
             <scrollbarColor>96969620</scrollbarColor>
             <scrollbarCorner>0.49</scrollbarCorner>
             <scrollbarSize>0.003</scrollbarSize>

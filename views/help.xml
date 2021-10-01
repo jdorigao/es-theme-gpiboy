@@ -17,9 +17,9 @@ author:			Juliano Dorigão
 		</image>
 
 		<helpsystem name="help">
-			<textColor>003E0A</textColor>
-			<iconColor>003E0A</iconColor>
-			<fontPath>./fonts/futura-bold-bt.ttf</fontPath>
+			<textColor>002105</textColor>
+			<iconColor>002105</iconColor>
+			<fontPath>./fonts/arcade-regular.ttf</fontPath>
 			<fontSize>0.035</fontSize>
 			<pos>0.01 0.95</pos>
 		</helpsystem>

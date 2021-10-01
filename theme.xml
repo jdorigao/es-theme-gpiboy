@@ -27,24 +27,22 @@ author:			Juliano Dorigão
         <text name="manufacturerName" extra="static">
             <text>${system.sortedBy}</text>
             <alignment>left</alignment>
-            <verticalAlignment>top</verticalAlignment>
-            <fontPath>./fonts/futura-bold-italic-bt.ttf</fontPath>
-            <fontSize>0.05</fontSize>
-            <pos>0.029 0.06</pos>
+            <fontPath>./fonts/arcade-regular.ttf</fontPath>
+            <fontSize>0.07</fontSize>
+            <pos>0.029 0.02</pos>
             <size>0.942 0.28</size>
-            <color>003E0A</color>      
+            <color>002105</color>      
             <zIndex>100</zIndex>
         </text>
 
         <text name="releaseYyear" extra="true">
             <text>${system.releaseYearOrNull}</text>
             <alignment>left</alignment>
-            <verticalAlignment>top</verticalAlignment>
-            <fontPath>./fonts/futura-bold-bt.ttf</fontPath>
-            <fontSize>0.035</fontSize>
-            <pos>0.03 0.15</pos>
+            <fontPath>./fonts/arcade-regular.ttf</fontPath>
+            <fontSize>0.05</fontSize>
+            <pos>0.03 0.1</pos>
             <size>0.94 0.28</size>
-            <color>003E0A</color>       
+            <color>002105</color>       
             <zIndex>100</zIndex>
         </text> 
     </view>
