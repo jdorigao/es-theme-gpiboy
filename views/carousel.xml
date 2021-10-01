@@ -8,15 +8,7 @@ author:			Juliano Dorigão
     <formatVersion>7</formatVersion>
     <feature supported="carousel">
 		<view name="system">
-			<image name="background" extra="true">
-                <size>1 1</size>
-                <pos>0 0</pos>
-                <origin>0 0</origin>
-                <path>./art/images/bg.png</path>
-                <zIndex>0</zIndex>
-            </image>
-    
-            <carousel name="systemcarousel">
+			<carousel name="systemcarousel">
                 <color>FAFAFF00</color>
                 <colorEnd>FAFAFF00</colorEnd>
                 <size>1 1</size>
@@ -50,31 +42,6 @@ author:			Juliano Dorigão
             <image name="carousel-shadow" extra="true">
                 <visible>false</visible>
             </image>
-
-            <text name="manufacturerName" extra="static">
-                <text>${system.sortedBy}</text>
-                <alignment>left</alignment>
-                <verticalAlignment>top</verticalAlignment>
-                <fontPath>./fonts/futura-bold-italic-bt.ttf</fontPath>
-                <fontSize>0.05</fontSize>
-                <pos>0.029 0.06</pos>
-                <size>0.942 0.28</size>
-                <color>003E0A</color>      
-                <zIndex>100</zIndex>
-            </text>
-
-            <text name="releaseYyear" extra="true">
-                <text>${system.releaseYearOrNull}</text>
-                <alignment>left</alignment>
-                <verticalAlignment>top</verticalAlignment>
-                <fontPath>./fonts/futura-bold-bt.ttf</fontPath>
-                <fontSize>0.035</fontSize>
-                <pos>0.03 0.15</pos>
-                <size>0.94 0.28</size>
-                <color>003E0A</color>       
-                <zIndex>100</zIndex>
-            </text> 
-
 		</view>
 	</feature>
 </theme>

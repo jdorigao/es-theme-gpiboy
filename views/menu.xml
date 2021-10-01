@@ -19,9 +19,9 @@
         <menuText name="menutext">
             <fontPath>./fonts/arcade-regular.ttf</fontPath>
             <fontSize>0.05</fontSize>
-            <color>000000</color>
+            <color>003E0A</color>
             <separatorColor>5C7600</separatorColor>
-            <selectorColor>000000</selectorColor>
+            <selectorColor>003E0A</selectorColor>
             <selectedColor>94A594</selectedColor>
         </menuText>
 
