@@ -26,7 +26,7 @@ author:			Juliano Dorigão
 		<image name="lineTitle" extra="static">
 			<color>${colorLineBase}</color>
 			<tile>false</tile>
-			<size>1 0.007</size>
+			<size>1 0.005</size>
 			<pos>0 0.19</pos>
 			<origin>0 1</origin>
 			<path>./../art/images/line.png</path>
