@@ -64,8 +64,8 @@ author:			Juliano Dorigão
             <pos>0.73 0.7</pos>
             <size>0.06 0.06</size>
             <horizontalAlignment>center</horizontalAlignment>
-            <color>00D424</color>
-            <unfilledColor>${colorTextBase}</unfilledColor>
+            <color>${colorTextBase}</color>
+            <unfilledColor>586927</unfilledColor>
             <unfilledPath>:/star_filled.svg</unfilledPath>
         </rating>
     </view>

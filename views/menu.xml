@@ -13,14 +13,14 @@
         <menuText name="menufooter">
             <fontPath>${fontTextBase}</fontPath>          
             <fontSize>0.04</fontSize>
-            <color>002105</color>
+            <color>${colorTextBase}</color>
         </menuText>
 
         <menuText name="menutext">
             <fontPath>${fontTextBase}</fontPath>
-            <fontSize>0.05</fontSize>
-            <color>002105</color>
-            <separatorColor>4D7700</separatorColor>
+            <fontSize>0.045</fontSize>
+            <color>${colorTextBase}</color>
+            <separatorColor>354F00</separatorColor>
             <selectorColor>002105</selectorColor>
             <selectorColorEnd>002105</selectorColorEnd>
             <selectedColor>DDDDDD</selectedColor>
@@ -28,20 +28,19 @@
 
         <menuTextSmall name="menutextsmall">
             <fontSize>0.03</fontSize>
-            <color>002105</color>
+            <color>${colorTextBase}</color>
         </menuTextSmall>
 
         <menuGroup name="menugroup">
             <fontPath>${fontTextBase}</fontPath> 
             <fontSize>0.035</fontSize>
             <color>F4FF00</color>
-            <separatorColor>002105</separatorColor>
+            <separatorColor>${colorTextBase}</separatorColor>
         </menuGroup>
 
         <menuBackground name="menubg">
-            <color>588800</color>
             <cornerSize>32 32</cornerSize>
-            <path>./../art/frame.png</path>
+            <path>./../art/images/frame.png</path>
             <scrollbarColor>96969620</scrollbarColor>
             <scrollbarCorner>0.49</scrollbarCorner>
             <scrollbarSize>0.003</scrollbarSize>
@@ -73,7 +72,6 @@
         </menuTextEdit>
 
         <menuButton name="menubutton">
-            <color>556E04</color>
             <path>./../art/images/button.png</path>
             <filledPath>./../art/images/button_filled.png</filledPath>
             <cornerSize>8 8</cornerSize>
