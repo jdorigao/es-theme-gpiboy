@@ -5,40 +5,43 @@
 
     <view name="menu">
         <menuText name="menutitle">
-            <fontPath>./fonts/arcade-regular.ttf</fontPath>
-            <fontSize>0.055</fontSize>
-            <color>94A594</color>
+            <fontPath>./fonts/arcade.ttf</fontPath>
+            <fontSize>0.06</fontSize>
+            <color>002105</color>
         </menuText>
 
         <menuText name="menufooter">
-            <fontPath>./fonts/arcade-regular.ttf</fontPath>          
-            <fontSize>0.035</fontSize>
-            <color>94A594</color>
+            <fontPath>./fonts/arcade.ttf</fontPath>          
+            <fontSize>0.04</fontSize>
+            <color>002105</color>
         </menuText>
 
         <menuText name="menutext">
-            <fontPath>./fonts/arcade-regular.ttf</fontPath>
+            <fontPath>./fonts/arcade.ttf</fontPath>
             <fontSize>0.05</fontSize>
-            <color>94A594</color>
-            <separatorColor>293400</separatorColor>
-            <selectorColor>425400</selectorColor>
-            <selectedColor>94A594</selectedColor>
+            <color>002105</color>
+            <separatorColor>4D7700</separatorColor>
+            <selectorColor>002105</selectorColor>
+            <selectorColorEnd>002105</selectorColorEnd>
+            <selectedColor>DDDDDD</selectedColor>
         </menuText>
 
         <menuTextSmall name="menutextsmall">
             <fontSize>0.03</fontSize>
-            <color>003E0A</color>
+            <color>002105</color>
         </menuTextSmall>
 
         <menuGroup name="menugroup">
-            <fontPath>./fonts/arcade-regular.ttf</fontPath> 
-            <fontSize>0.03</fontSize>
-            <color>94A594</color>
-            <separatorColor>94A594</separatorColor>
+            <fontPath>./fonts/arcade.ttf</fontPath> 
+            <fontSize>0.035</fontSize>
+            <color>F4FF00</color>
+            <separatorColor>002105</separatorColor>
         </menuGroup>
 
         <menuBackground name="menubg">
-            <color>002F08</color>
+            <color>588800</color>
+            <cornerSize>32 32</cornerSize>
+            <path>./../art/frame.png</path>
             <scrollbarColor>96969620</scrollbarColor>
             <scrollbarCorner>0.49</scrollbarCorner>
             <scrollbarSize>0.003</scrollbarSize>

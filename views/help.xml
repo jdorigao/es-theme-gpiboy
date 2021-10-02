@@ -9,7 +9,7 @@ author:			Juliano Dorigão
 	<view name="system, basic, detailed">
 		<image name="BottomBar" extra="static">
 			<tile>false</tile>
-			<size>1 0.065</size>
+			<size>1 0.09</size>
 			<pos>0 1</pos>
 			<origin>0 1</origin>
 			<path>./../art/images/bottom.png</path>
@@ -19,9 +19,9 @@ author:			Juliano Dorigão
 		<helpsystem name="help">
 			<textColor>002105</textColor>
 			<iconColor>002105</iconColor>
-			<fontPath>./fonts/arcade-regular.ttf</fontPath>
-			<fontSize>0.035</fontSize>
-			<pos>0.01 0.95</pos>
+			<fontPath>./fonts/arcade.ttf</fontPath>
+			<fontSize>0.05</fontSize>
+			<pos>0.01 0.935</pos>
 		</helpsystem>
 	</view>
 </theme>

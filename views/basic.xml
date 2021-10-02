@@ -14,7 +14,7 @@ author:			Juliano Dorigão
 		</carousel>
 
 		<text name="logoText">
-			<fontPath>./fonts/arcade-regular.ttf</fontPath>
+			<fontPath>./fonts/arcade.ttf</fontPath>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.14</pos>
 			<fontSize>0.053</fontSize>
@@ -39,7 +39,7 @@ author:			Juliano Dorigão
 			<selectorColor>003E0A</selectorColor> <!-- Selection bar -->
 			<selectedColor>94A594</selectedColor> <!-- Selection letters -->
 			<primaryColor>002105</primaryColor> <!-- Letters -->
-			<fontPath>./fonts/arcade-regular.ttf</fontPath>
+			<fontPath>./fonts/arcade.ttf</fontPath>
 			<fontSize>0.05</fontSize>
 			<alignment>center</alignment>
 			<horizontalMargin>0.03</horizontalMargin>

@@ -19,19 +19,19 @@ author:			Juliano Dorigão
             </carousel>
 
             <text name="logoText">
-                <fontPath>./fonts/arcade-regular.ttf</fontPath>
+                <fontPath>./fonts/arcade.ttf</fontPath>
                 <fontSize>0.08</fontSize>
                 <color>002105</color>
                 <forceUppercase>true</forceUppercase> 
             </text>
     
             <text name="systemInfo">
-                <fontPath>./fonts/arcade-regular.ttf</fontPath>
+                <fontPath>./fonts/arcade.ttf</fontPath>
                 <backgroundColor>00000000</backgroundColor>
                 <color>002105</color>
                 <pos>0 0.75</pos>
                 <size>0.95 0.05</size>
-                <fontSize>0.04</fontSize>
+                <fontSize>0.045</fontSize>
                 <alignment>center</alignment>
             </text>
     

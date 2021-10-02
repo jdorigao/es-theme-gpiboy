@@ -9,7 +9,7 @@ author:			Juliano Dorigão
     <view name="screen">
 	  	<controllerActivity name="controllerActivity">
 			<pos>0.01 0.003</pos>
-			<size>0.055 0.01</size>
+			<size>0.07 0.05</size>
 			<itemSpacing>0.003</itemSpacing>
 			<color>003E0A</color>
 			<imagePath>./art/icons/gamepad.svg</imagePath>
