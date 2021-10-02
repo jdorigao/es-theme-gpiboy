@@ -7,21 +7,22 @@ author:			Juliano Dorigão
 <theme>
     <formatVersion>7</formatVersion>    
 	<view name="system, basic, detailed">
-		<image name="BottomBar" extra="static">
+		<image name="lineBar" extra="static">
+			<color>${colorLineBase}</color>
 			<tile>false</tile>
-			<size>1 0.09</size>
-			<pos>0 1</pos>
+			<size>1 0.007</size>
+			<pos>0 0.92</pos>
 			<origin>0 1</origin>
-			<path>./../art/images/bottom.png</path>
+			<path>./../art/images/line.png</path>
 			<zIndex>50</zIndex>
 		</image>
 
 		<helpsystem name="help">
-			<textColor>002105</textColor>
-			<iconColor>002105</iconColor>
-			<fontPath>./fonts/arcade.ttf</fontPath>
+			<textColor>${colorTextBase}</textColor>
+			<iconColor>${colorTextBase}</iconColor>
+			<fontPath>${fontTextBase}</fontPath>
 			<fontSize>0.05</fontSize>
-			<pos>0.01 0.935</pos>
+			<pos>0.01 0.936</pos>
 		</helpsystem>
 	</view>
 </theme>

@@ -5,7 +5,9 @@ author:			Juliano Dorigão
 -->
 
 <theme>
-	<formatVersion>7</formatVersion>	
+	<formatVersion>7</formatVersion>
+    <include subset="colorset" name="default" displayName="Default">./colorsets/default.xml</include>
+    
     <include>./views/screen.xml</include>
     <include>./views/carousel.xml</include>
     <include>./views/help.xml</include>
@@ -27,7 +29,7 @@ author:			Juliano Dorigão
         <text name="manufacturerName" extra="static">
             <text>${system.sortedBy}</text>
             <alignment>left</alignment>
-            <fontPath>./fonts/arcade.ttf</fontPath>
+            <fontPath>${fontTextBase}</fontPath>
             <fontSize>0.07</fontSize>
             <pos>0.029 0.04</pos>
             <size>0.942 0.28</size>
@@ -38,7 +40,7 @@ author:			Juliano Dorigão
         <text name="releaseYyear" extra="true">
             <text>${system.releaseYearOrNull}</text>
             <alignment>left</alignment>
-            <fontPath>./fonts/arcade.ttf</fontPath>
+            <fontPath>${fontTextBase}</fontPath>
             <fontSize>0.05</fontSize>
             <pos>0.03 0.12</pos>
             <size>0.94 0.28</size>

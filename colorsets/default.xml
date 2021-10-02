@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+theme name:		GPIBoy
+author:			Juliano Dorigão
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+        <variables>
+            <colorTextBase>011804</colorTextBase>
+            <colorLineBase>011804</colorLineBase>
+
+            <!-- Font -->
+            <fontTextBase>./fonts/arcade.ttf</fontTextBase>
+            <fontTextClock>./fonts/ds-digib.ttf</fontTextClock>
+
+
+        </variables>
+</theme>

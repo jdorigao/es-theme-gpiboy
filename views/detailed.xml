@@ -14,21 +14,22 @@ author:			Juliano Dorigão
 		</carousel>
 
 		<text name="logoText">
-			<fontPath>./fonts/arcade.ttf</fontPath>
+			<fontPath>${fontTextBase}</fontPath>
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.14</pos>
 			<fontSize>0.053</fontSize>
-			<color>002105</color>
+			<color>${colorTextBase}</color>
 			<alignment>center</alignment>
 			<forceUppercase>true</forceUppercase> 
 		</text>
 
-		<image name="BottomTitle" extra="static">
+		<image name="lineTitle" extra="static">
+			<color>${colorLineBase}</color>
 			<tile>false</tile>
 			<size>1 0.007</size>
 			<pos>0 0.19</pos>
 			<origin>0 1</origin>
-			<path>./../art/images/bottom-up.png</path>
+			<path>./../art/images/line.png</path>
 			<zIndex>50</zIndex>
 		</image>
         
@@ -40,7 +41,7 @@ author:			Juliano Dorigão
 			<selectorColor>003E0A</selectorColor> <!-- Selection bar -->
 			<selectedColor>94A594</selectedColor> <!-- Selection letters -->
 			<primaryColor>002105</primaryColor> <!-- Letters -->
-			<fontPath>./fonts/arcade.ttf</fontPath>
+			<fontPath>${fontTextBase}</fontPath>
 			<fontSize>0.048</fontSize>
 			<horizontalMargin>0.03</horizontalMargin>
 			<scrollSound>./art/sound/scroll.wav</scrollSound>
@@ -64,7 +65,7 @@ author:			Juliano Dorigão
             <size>0.06 0.06</size>
             <horizontalAlignment>center</horizontalAlignment>
             <color>00D424</color>
-            <unfilledColor>003E0A</unfilledColor>
+            <unfilledColor>${colorTextBase}</unfilledColor>
             <unfilledPath>:/star_filled.svg</unfilledPath>
         </rating>
     </view>

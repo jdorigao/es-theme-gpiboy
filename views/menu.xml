@@ -5,19 +5,19 @@
 
     <view name="menu">
         <menuText name="menutitle">
-            <fontPath>./fonts/arcade.ttf</fontPath>
+            <fontPath>${fontTextBase}</fontPath>
             <fontSize>0.06</fontSize>
             <color>002105</color>
         </menuText>
 
         <menuText name="menufooter">
-            <fontPath>./fonts/arcade.ttf</fontPath>          
+            <fontPath>${fontTextBase}</fontPath>          
             <fontSize>0.04</fontSize>
             <color>002105</color>
         </menuText>
 
         <menuText name="menutext">
-            <fontPath>./fonts/arcade.ttf</fontPath>
+            <fontPath>${fontTextBase}</fontPath>
             <fontSize>0.05</fontSize>
             <color>002105</color>
             <separatorColor>4D7700</separatorColor>
@@ -32,7 +32,7 @@
         </menuTextSmall>
 
         <menuGroup name="menugroup">
-            <fontPath>./fonts/arcade.ttf</fontPath> 
+            <fontPath>${fontTextBase}</fontPath> 
             <fontSize>0.035</fontSize>
             <color>F4FF00</color>
             <separatorColor>002105</separatorColor>
