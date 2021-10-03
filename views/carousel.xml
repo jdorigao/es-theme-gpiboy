@@ -82,7 +82,7 @@ author:			Juliano Dorigão
 		</helpsystem>
 	</view>
 
-	<view name="basic, detailed">
+	<view name="basic, detailed, grid">
 		<carousel name="systemcarousel">
 			<color>FAFAFF00</color>
 			<colorEnd>FAFAFF00</colorEnd>			

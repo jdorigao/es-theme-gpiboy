@@ -12,9 +12,10 @@ author:			Juliano Dorigão
     <include>./views/menu.xml</include>
     <include>./views/carousel.xml</include>
     <include>./views/basic.xml</include>
-    <include>./views/detailed.xml</include>    
+    <include>./views/detailed.xml</include>
+    <include>./views/grid.xml</include>    
     
-    <view name="system, basic, detailed">
+    <view name="system, basic, detailed, grid">
         <image name="background" extra="true">
             <size>1 1</size>
             <pos>0 0</pos>

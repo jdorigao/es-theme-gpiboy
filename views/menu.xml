@@ -2,7 +2,6 @@
 
 <theme>
     <formatVersion>7</formatVersion>
-
     <view name="menu">
         <menuText name="menutitle">
             <fontPath>${fontTextBase}</fontPath>
