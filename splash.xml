@@ -1,0 +1,49 @@
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+theme name:		GPIBoy
+author:			Juliano Dorigão
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+    <variables>
+        <baseColor>011804</baseColor>
+    </variables>
+    
+    <view name="splash">
+        <text name="batocera" extra="true">
+            <text>BATOCERA</text>
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <color>011804</color>
+            <fontPath>./fonts/arcade.ttf</fontPath>
+            <fontSize>0.18</fontSize>
+            <alignment>center</alignment>
+            <verticalAlignment>center</verticalAlignment> 
+        </text>
+
+        <image name="progressbar">
+            <color>6060607F</color>
+            <colorEnd>6060607F</colorEnd>
+            <roundCorners>0.01</roundCorners>
+        </image>
+
+        <image name="progressbar:active">
+            <tile>true</tile>
+            <color>${baseColor}</color>
+        </image>
+
+        <image name="background">
+            <pos>0.5 0.5</pos>
+            <origin>0.5 0.5</origin>
+            <minSize>1 1</minSize>
+            <path>./art/images/bg.png</path>
+        </image>
+
+        <text name="label">
+            <color>${baseColor}</color>
+            <fontPath>./fonts/arcade.ttf</fontPath>
+        </text>
+    </view>
+</theme>
