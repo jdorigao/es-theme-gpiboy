@@ -20,9 +20,10 @@ author:			Juliano Dorigão
 
         <text name="gridtile">
             <fontPath>${fontTextBase}</fontPath>
-            <fontSize>0.05</fontSize>
+            <fontSize>0.04</fontSize>
             <color>${colorTextBase}</color>
             <alignment>center</alignment>
+            <verticalAlignment>center</verticalAlignment>
         </text>
 
         <gridtile name="default">
