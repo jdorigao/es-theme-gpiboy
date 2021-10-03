@@ -5,42 +5,126 @@ author:			Juliano Dorigão
 -->
 
 <theme>
-    <formatVersion>7</formatVersion>
-    <feature supported="carousel">
-		<view name="system">
-			<carousel name="systemcarousel">
-                <color>FAFAFF00</color>
-                <colorEnd>FAFAFF00</colorEnd>
-                <size>1 1</size>
-                <pos>0 0</pos>
-                <origin>0 0</origin>
-                <logoSize>0.8 0.3</logoSize>
-                <maxLogoCount>1</maxLogoCount>
-            </carousel>
+    <formatVersion>7</formatVersion>    
+	<view name="system">
+		<text name="manufacturerName" extra="static">
+            <text>${system.sortedBy}</text>
+            <alignment>left</alignment>
+            <fontPath>${fontTextBase}</fontPath>
+            <fontSize>0.07</fontSize>
+            <pos>0.029 0.04</pos>
+            <size>0.942 0.28</size>
+            <color>002105</color>      
+            <zIndex>100</zIndex>
+        </text>
 
-            <text name="logoText">
-                <fontPath>${fontTextBase}</fontPath>
-                <fontSize>0.08</fontSize>
-                <color>${colorTextBase}</color>
-                <forceUppercase>true</forceUppercase> 
-            </text>
-    
-            <text name="systemInfo">
-                <fontPath>${fontTextBase}</fontPath>
-                <color>${colorTextBase}</color>
-                <pos>0 0.75</pos>
-                <size>0.95 0.05</size>
-                <fontSize>0.045</fontSize>
-                <alignment>center</alignment>
-            </text>
-    
-            <image name="carousel-inner" extra="true">
-                <visible>false</visible>
-            </image>
-            
-            <image name="carousel-shadow" extra="true">
-                <visible>false</visible>
-            </image>
-		</view>
-	</feature>
+        <text name="releaseYyear" extra="true">
+            <text>${system.releaseYearOrNull}</text>
+            <alignment>left</alignment>
+            <fontPath>${fontTextBase}</fontPath>
+            <fontSize>0.05</fontSize>
+            <pos>0.03 0.12</pos>
+            <size>0.94 0.28</size>
+            <color>002105</color>       
+            <zIndex>100</zIndex>
+        </text> 
+
+		<carousel name="systemcarousel">
+			<color>FAFAFF00</color>
+			<colorEnd>FAFAFF00</colorEnd>
+			<size>1 1</size>
+			<pos>0 0</pos>
+			<origin>0 0</origin>
+			<logoSize>0.8 0.3</logoSize>
+			<maxLogoCount>1</maxLogoCount>
+		</carousel>
+
+		<text name="logoText">
+			<fontPath>${fontTextBase}</fontPath>
+			<fontSize>0.08</fontSize>
+			<color>${colorTextBase}</color>
+			<forceUppercase>true</forceUppercase> 
+		</text>
+
+		<text name="systemInfo">
+			<fontPath>${fontTextBase}</fontPath>
+			<color>${colorTextBase}</color>
+			<pos>0 0.75</pos>
+			<size>0.95 0.05</size>
+			<fontSize>0.045</fontSize>
+			<alignment>center</alignment>
+		</text>
+
+		<image name="carousel-inner" extra="true">
+			<visible>false</visible>
+		</image>
+		
+		<image name="carousel-shadow" extra="true">
+			<visible>false</visible>
+		</image>		
+		
+		<image name="lineBar" extra="static">
+			<color>${colorLineBase}</color>
+			<tile>false</tile>
+			<size>1 0.005</size>
+			<pos>0 0.92</pos>
+			<origin>0 1</origin>
+			<path>./art/images/line.png</path>
+			<zIndex>50</zIndex>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>${colorTextBase}</textColor>
+			<iconColor>${colorTextBase}</iconColor>
+			<fontPath>${fontTextBase}</fontPath>
+			<fontSize>0.05</fontSize>
+			<pos>0.01 0.936</pos>
+		</helpsystem>
+	</view>
+
+	<view name="basic, detailed">
+		<carousel name="systemcarousel">
+			<color>FAFAFF00</color>
+			<colorEnd>FAFAFF00</colorEnd>			
+			<maxLogoCount>1</maxLogoCount>
+		</carousel>
+
+		<text name="logoText">
+			<fontPath>${fontTextBase}</fontPath>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.14</pos>
+			<fontSize>0.053</fontSize>
+			<color>${colorTextBase}</color>
+			<alignment>center</alignment>
+			<forceUppercase>true</forceUppercase> 
+		</text>
+
+		<image name="lineTitle" extra="static">
+			<color>${colorLineBase}</color>
+			<tile>false</tile>
+			<size>1 0.005</size>
+			<pos>0 0.19</pos>
+			<origin>0 1</origin>
+			<path>./art/images/line.png</path>
+			<zIndex>50</zIndex>
+		</image>
+
+		<image name="lineBar" extra="static">
+			<color>${colorLineBase}</color>
+			<tile>false</tile>
+			<size>1 0.005</size>
+			<pos>0 0.92</pos>
+			<origin>0 1</origin>
+			<path>./art/images/line.png</path>
+			<zIndex>50</zIndex>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>${colorTextBase}</textColor>
+			<iconColor>${colorTextBase}</iconColor>
+			<fontPath>${fontTextBase}</fontPath>
+			<fontSize>0.05</fontSize>
+			<pos>0.01 0.936</pos>
+		</helpsystem>
+	</view>
 </theme>

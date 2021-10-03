@@ -7,32 +7,6 @@ author:			Juliano Dorigão
 <theme>
     <formatVersion>7</formatVersion>    
 	<view name="basic">
-		<carousel name="systemcarousel">
-			<color>FAFAFF00</color>
-			<colorEnd>FAFAFF00</colorEnd>			
-			<maxLogoCount>1</maxLogoCount>
-		</carousel>
-
-		<text name="logoText">
-			<fontPath>${fontTextBase}</fontPath>
-			<origin>0.5 0.5</origin>
-			<pos>0.5 0.14</pos>
-			<fontSize>0.053</fontSize>
-			<color>${colorTextBase}</color>
-			<alignment>center</alignment>
-			<forceUppercase>true</forceUppercase> 
-		</text>
-
-		<image name="lineTitle" extra="static">
-			<color>${colorLineBase}</color>
-			<tile>false</tile>
-			<size>1 0.005</size>
-			<pos>0 0.19</pos>
-			<origin>0 1</origin>
-			<path>./../art/images/line.png</path>
-			<zIndex>50</zIndex>
-		</image>
-
 		<textlist name="gamelist">
 			<origin>0.5 0.5</origin>
 			<pos>0.5 0.61</pos>

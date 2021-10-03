@@ -9,11 +9,10 @@ author:			Juliano Dorigão
     <include subset="colorset" name="default" displayName="Default">./colorsets/default.xml</include>
     
     <include>./views/screen.xml</include>
-    <include>./views/carousel.xml</include>
-    <include>./views/help.xml</include>
     <include>./views/menu.xml</include>
+    <include>./views/carousel.xml</include>
     <include>./views/basic.xml</include>
-    <include>./views/detailed.xml</include>
+    <include>./views/detailed.xml</include>    
     
     <view name="system, basic, detailed">
         <image name="background" extra="true">
@@ -23,29 +22,5 @@ author:			Juliano Dorigão
             <path>./art/images/bg.png</path>
             <zIndex>0</zIndex>
         </image>
-    </view>
-
-    <view name="system">
-        <text name="manufacturerName" extra="static">
-            <text>${system.sortedBy}</text>
-            <alignment>left</alignment>
-            <fontPath>${fontTextBase}</fontPath>
-            <fontSize>0.07</fontSize>
-            <pos>0.029 0.04</pos>
-            <size>0.942 0.28</size>
-            <color>002105</color>      
-            <zIndex>100</zIndex>
-        </text>
-
-        <text name="releaseYyear" extra="true">
-            <text>${system.releaseYearOrNull}</text>
-            <alignment>left</alignment>
-            <fontPath>${fontTextBase}</fontPath>
-            <fontSize>0.05</fontSize>
-            <pos>0.03 0.12</pos>
-            <size>0.94 0.28</size>
-            <color>002105</color>       
-            <zIndex>100</zIndex>
-        </text> 
     </view>
 </theme>
