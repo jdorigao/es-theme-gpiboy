@@ -33,7 +33,7 @@
         <menuGroup name="menugroup">
             <fontPath>${fontTextBase}</fontPath> 
             <fontSize>0.035</fontSize>
-            <color>F4FF00</color>
+            <color>0002F9</color>
             <separatorColor>${colorTextBase}</separatorColor>
         </menuGroup>
 
