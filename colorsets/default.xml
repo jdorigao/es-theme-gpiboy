@@ -7,8 +7,8 @@ author:			Juliano Dorigão
 <theme>
     <formatVersion>7</formatVersion>
         <variables>
-            <colorTextBase>011804</colorTextBase>
-            <colorLineBase>03380A</colorLineBase>
+            <colorTextBase>000000</colorTextBase>
+            <colorLineBase>000000</colorLineBase>
 
             <!-- Font -->
             <fontTextBase>./fonts/arcade.ttf</fontTextBase>

@@ -6,7 +6,7 @@
         <menuText name="menutitle">
             <fontPath>${fontTextBase}</fontPath>
             <fontSize>0.06</fontSize>
-            <color>002105</color>
+            <color>${colorTextBase}</color>
         </menuText>
 
         <menuText name="menufooter">
