@@ -27,7 +27,17 @@ author:			Juliano Dorigão
             <size>0.94 0.28</size>
             <color>${colorTextBase}</color>       
             <zIndex>100</zIndex>
-        </text> 
+        </text>
+
+		<text name="systemInfo">
+			<alignment>right</alignment>
+            <fontPath>${fontTextBase}</fontPath>
+            <fontSize>0.05</fontSize>
+            <pos>0.029 0.04</pos>
+            <size>0.94 0.28</size>
+            <color>${colorTextBase}</color>       
+            <zIndex>100</zIndex>
+		</text>
 
 		<carousel name="systemcarousel">
 			<color>FAFAFF00</color>
@@ -44,15 +54,6 @@ author:			Juliano Dorigão
 			<fontSize>0.08</fontSize>
 			<color>${colorTextBase}</color>
 			<forceUppercase>true</forceUppercase> 
-		</text>
-
-		<text name="systemInfo">
-			<fontPath>${fontTextBase}</fontPath>
-			<color>${colorTextBase}</color>
-			<pos>0 0.75</pos>
-			<size>0.95 0.05</size>
-			<fontSize>0.045</fontSize>
-			<alignment>center</alignment>
 		</text>
 
 		<image name="carousel-inner" extra="true">
