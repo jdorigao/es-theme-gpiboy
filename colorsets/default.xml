@@ -10,10 +10,18 @@ author:			Juliano Dorigão
             <colorBase>9eb816</colorBase>
             <colorTextBase>011901</colorTextBase>
 
+            <!-- Menu -->
+            <separatorColorBase>6c9304</separatorColorBase>
+            <selectorColorBase>002105</selectorColorBase>
+            <selectorColorEndBase>005a0e</selectorColorEndBase>
+            <selectedColorBase>DDDDDD</selectedColorBase>
+
             <!-- Font -->
             <fontTextBase>./fonts/arcade.ttf</fontTextBase>
             <fontTextClock>./fonts/ds-digib.ttf</fontTextClock>
             <fontTextHelp>./fonts/titillium.ttf</fontTextHelp>
+            <fontMenuBold>./fonts/cabin-bold.ttf</fontMenuBold>
+            <fontMenuRegular>./fonts/cabin-regular.ttf</fontMenuRegular>
 
         </variables>
 </theme>

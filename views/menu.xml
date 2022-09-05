@@ -4,42 +4,45 @@
     <formatVersion>7</formatVersion>
     <view name="menu">
         <menuText name="menutitle">
-            <fontPath>${fontTextBase}</fontPath>
-            <fontSize>0.06</fontSize>
+            <fontPath>${fontMenuBold}</fontPath>
+            <fontSize>0.044</fontSize>
             <color>${colorTextBase}</color>
         </menuText>
 
         <menuText name="menufooter">
-            <fontPath>${fontTextBase}</fontPath>          
-            <fontSize>0.04</fontSize>
+            <fontPath>${fontMenuRegular}</fontPath>          
+            <fontSize>0.02</fontSize>
             <color>${colorTextBase}</color>
         </menuText>
 
         <menuText name="menutext">
-            <fontPath>${fontTextBase}</fontPath>
-            <fontSize>0.045</fontSize>
+            <fontPath>${fontMenuRegular}</fontPath>
+            <fontSize>0.0325</fontSize>
+            <fontSize tinyScreen="true">0.034</fontSize>
             <color>${colorTextBase}</color>
-            <separatorColor>354F00</separatorColor>
-            <selectorColor>002105</selectorColor>
-            <selectorColorEnd>002105</selectorColorEnd>
-            <selectedColor>DDDDDD</selectedColor>
+            <separatorColor>${separatorColorBase}</separatorColor>
+            <selectorColor>${selectorColorBase}</selectorColor>
+            <selectorColorEnd>${selectorColorEndBase}</selectorColorEnd>
+            <selectedColor>${selectedColorBase}</selectedColor>
+            <selectorGradientType>horizontal</selectorGradientType>
         </menuText>
 
         <menuTextSmall name="menutextsmall">
-            <fontSize>0.03</fontSize>
+            <fontPath>${fontMenuRegular}</fontPath>
+            <fontSize>0.025</fontSize>
             <color>${colorTextBase}</color>
         </menuTextSmall>
 
         <menuGroup name="menugroup">
-            <fontPath>${fontTextBase}</fontPath> 
-            <fontSize>0.035</fontSize>
-            <color>0002F9</color>
-            <separatorColor>${colorTextBase}</separatorColor>
+            <fontPath>${fontMenuBold}</fontPath> 
+            <fontSize>0.033</fontSize>
+            <textColor>${colorTextBase}</textColor>
+            <backgroundColor>768d00</backgroundColor>
         </menuGroup>
 
         <menuBackground name="menubg">
+            <color>${colorBase}</color>
             <cornerSize>32 32</cornerSize>
-            <path>./../art/images/frame.png</path>
             <scrollbarColor>96969620</scrollbarColor>
             <scrollbarCorner>0.49</scrollbarCorner>
             <scrollbarSize>0.003</scrollbarSize>

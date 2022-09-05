@@ -42,19 +42,18 @@ author:			Juliano Dorigão
 		<image name="controller" extra="true">
 			<path>./../art/controller/${system.theme}.svg</path>
 			<color>${colorTextBase}</color>
-			<origin>0.5 0</origin>
-			<pos>0.5 0.25</pos>
-			<maxSize>0.5 0.5</maxSize>
-			<zIndex>5</zIndex>
+			<backgroundColor>000000</backgroundColor>
+			<pos>0.5 0.45</pos>
+			<origin>0.5 0.5</origin>
+			<maxSize>0.45 0.45</maxSize>
       	</image>
 
 		<carousel name="systemcarousel">
 			<color>FAFAFF00</color>
 			<colorEnd>FAFAFF00</colorEnd>
-			<size>1 1</size>
-			<pos>0.5 0.75</pos>
+			<pos>0.5 0.8</pos>
 			<origin>0.5 0.5</origin>
-			<logoSize>0.8 0.3</logoSize>
+			<logoSize>0.8 0.22</logoSize>
 			<maxLogoCount>1</maxLogoCount>
 		</carousel>
 
