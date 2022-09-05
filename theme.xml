@@ -17,11 +17,21 @@ author:			Juliano Dorigão
     
     <view name="system, basic, detailed, grid">
         <image name="background" extra="true">
+            <color>${colorBase}</color>
             <size>1 1</size>
             <pos>0 0</pos>
             <origin>0 0</origin>
             <path>./art/images/bg.png</path>
             <zIndex>0</zIndex>
         </image>
+
+        <helpsystem name="help">
+			<textColor>${colorTextBase}</textColor>
+			<iconColor>${colorTextBase}</iconColor>
+			<fontPath>${fontTextBase}</fontPath>
+			<fontPath>${fontTextHelp}</fontPath>
+			<fontSize>0.04</fontSize>
+			<pos>0.01 0.936</pos>
+		</helpsystem>
     </view>
 </theme>

@@ -9,6 +9,7 @@ author:			Juliano Dorigão
     <formatVersion>7</formatVersion>
     <variables>
         <baseColor>000000</baseColor>
+        <backgroundColor>9eb816</backgroundColor>
     </variables>
     
     <view name="splash">
@@ -35,6 +36,7 @@ author:			Juliano Dorigão
         </image>
 
         <image name="background">
+            <color>${backgroundColor}</color>
             <size>1 1</size>
             <pos>0 0</pos>
             <origin>0 0</origin>
