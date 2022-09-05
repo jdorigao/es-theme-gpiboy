@@ -12,7 +12,7 @@ author:			Juliano Dorigão
 			<size>0.07 0.05</size>
 			<itemSpacing>0.003</itemSpacing>
 			<color>${colorTextBase}</color>
-			<imagePath>./art/icons/gamepad.svg</imagePath>
+			<imagePath>./../art/icons/gamepad.svg</imagePath>
 			<activityColor>003E0A</activityColor>
 			<hotkeyColor>82A314</hotkeyColor>
 		</controllerActivity>		
