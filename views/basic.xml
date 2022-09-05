@@ -8,14 +8,16 @@ author:			Juliano Dorigão
     <formatVersion>7</formatVersion>    
 	<view name="basic">
 		<textlist name="gamelist">
+			<pos>0.5 0.55</pos>
 			<origin>0.5 0.5</origin>
-			<pos>0.5 0.61</pos>
-			<size>1 0.78</size>
-			<selectorColor>003E0A</selectorColor> <!-- Selection bar -->
-			<selectedColor>94A594</selectedColor> <!-- Selection letters -->
-			<primaryColor>${colorTextBase}</primaryColor> <!-- Letters -->
+			<size>1 0.65</size>
+			<selectorColor>${selectorColorBase}</selectorColor>
+			<selectedColor>${selectedColorBase}</selectedColor>
+			<selectorColorEnd>${selectorColorEndBase}</selectorColorEnd>
+			<primaryColor>${colorTextBase}</primaryColor>
+			<selectorGradientType>horizontal</selectorGradientType>
 			<fontPath>${fontTextBase}</fontPath>
-			<fontSize>0.05</fontSize>
+			<fontSize>0.045</fontSize>
 			<alignment>center</alignment>
 			<horizontalMargin>0.03</horizontalMargin>
 			<scrollSound>./art/sound/scroll.wav</scrollSound>
