@@ -39,21 +39,30 @@ author:			Juliano Dorigão
             <zIndex>100</zIndex>
 		</text>
 
+		<image name="controller" extra="true">
+			<path>./../art/controller/${system.theme}.svg</path>
+			<color>${colorTextBase}</color>
+			<origin>0.5 0</origin>
+			<pos>0.5 0.25</pos>
+			<maxSize>0.5 0.5</maxSize>
+			<zIndex>5</zIndex>
+      	</image>
+
 		<carousel name="systemcarousel">
 			<color>FAFAFF00</color>
 			<colorEnd>FAFAFF00</colorEnd>
 			<size>1 1</size>
-			<pos>0 0</pos>
-			<origin>0 0</origin>
+			<pos>0.5 0.75</pos>
+			<origin>0.5 0.5</origin>
 			<logoSize>0.8 0.3</logoSize>
 			<maxLogoCount>1</maxLogoCount>
 		</carousel>
 
 		<text name="logoText">
 			<fontPath>${fontTextBase}</fontPath>
-			<fontSize>0.08</fontSize>
+			<fontSize>0.07</fontSize>
 			<color>${colorTextBase}</color>
-			<forceUppercase>true</forceUppercase> 
+			<forceUppercase>true</forceUppercase>
 		</text>
 
 		<image name="carousel-inner" extra="true">
