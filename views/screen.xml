@@ -18,7 +18,7 @@ author:			Juliano Dorigão
 		</controllerActivity>		
 	
 		<batteryIndicator name="batteryIndicator">
-			<pos>0.7 0.003</pos>
+			<pos>0.725 0.003</pos>
 			<size>0.08 0.08</size>
 			<incharge>./../art/battery/incharge.svg</incharge>
 			<full>./../art/battery/full.svg</full>
@@ -27,13 +27,13 @@ author:			Juliano Dorigão
 			<at25>./../art/battery/25.svg</at25>
 			<empty>./../art/battery/empty.svg</empty>
 			<color>${colorTextBase}</color>
-			<alignment>center</alignment>
+			<alignment>right</alignment>
 			<verticalAlignment>center</verticalAlignment>
 		</batteryIndicator>
 
 		<text name="clock">
-			<pos>0.79 0.004</pos>
-			<size>0.21 0.065</size>	
+			<pos>0.8 0.004</pos>
+			<size>0.185 0.065</size>	
 			<fontPath>${fontTextClock}</fontPath>
 			<fontSize>0.054</fontSize>
 			<color>${colorTextBase}</color>
