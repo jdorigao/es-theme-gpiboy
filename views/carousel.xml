@@ -64,7 +64,7 @@ author:			Juliano Dorigão
 		</image>		
 		
 		<image name="lineBar" extra="static">
-			<color>${colorLineBase}</color>
+			<color>${colorTextBase}</color>
 			<tile>false</tile>
 			<size>1 0.005</size>
 			<pos>0 0.92</pos>
@@ -77,7 +77,8 @@ author:			Juliano Dorigão
 			<textColor>${colorTextBase}</textColor>
 			<iconColor>${colorTextBase}</iconColor>
 			<fontPath>${fontTextBase}</fontPath>
-			<fontSize>0.05</fontSize>
+			<fontPath>${fontTextHelp}</fontPath>
+			<fontSize>0.04</fontSize>
 			<pos>0.01 0.936</pos>
 		</helpsystem>
 	</view>
@@ -100,7 +101,7 @@ author:			Juliano Dorigão
 		</text>
 
 		<image name="lineTitle" extra="static">
-			<color>${colorLineBase}</color>
+			<color>${colorTextBase}</color>
 			<tile>false</tile>
 			<size>1 0.005</size>
 			<pos>0 0.19</pos>
@@ -110,7 +111,7 @@ author:			Juliano Dorigão
 		</image>
 
 		<image name="lineBar" extra="static">
-			<color>${colorLineBase}</color>
+			<color>${colorTextBase}</color>
 			<tile>false</tile>
 			<size>1 0.005</size>
 			<pos>0 0.92</pos>
@@ -123,7 +124,8 @@ author:			Juliano Dorigão
 			<textColor>${colorTextBase}</textColor>
 			<iconColor>${colorTextBase}</iconColor>
 			<fontPath>${fontTextBase}</fontPath>
-			<fontSize>0.05</fontSize>
+			<fontPath>${fontTextHelp}</fontPath>
+			<fontSize>0.04</fontSize>
 			<pos>0.01 0.936</pos>
 		</helpsystem>
 	</view>

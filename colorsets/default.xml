@@ -7,13 +7,12 @@ author:			Juliano Dorigão
 <theme>
     <formatVersion>7</formatVersion>
         <variables>
-            <colorTextBase>000000</colorTextBase>
-            <colorLineBase>000000</colorLineBase>
+            <colorTextBase>011901</colorTextBase>
 
             <!-- Font -->
             <fontTextBase>./fonts/arcade.ttf</fontTextBase>
             <fontTextClock>./fonts/ds-digib.ttf</fontTextClock>
-
+            <fontTextHelp>./fonts/titillium.ttf</fontTextHelp>
 
         </variables>
 </theme>
