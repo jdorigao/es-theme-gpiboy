@@ -16,12 +16,16 @@ author:			Juliano Dorigão
             <selectorColorEndBase>005a0e</selectorColorEndBase>
             <selectedColorBase>DDDDDD</selectedColorBase>
 
+            <!-- Menu -->
+            <unfilledColorBase>586927</unfilledColorBase>
+
             <!-- Font -->
             <fontTextBase>./fonts/arcade.ttf</fontTextBase>
             <fontTextClock>./fonts/ds-digib.ttf</fontTextClock>
             <fontTextHelp>./fonts/titillium.ttf</fontTextHelp>
             <fontMenuBold>./fonts/cabin-bold.ttf</fontMenuBold>
             <fontMenuRegular>./fonts/cabin-regular.ttf</fontMenuRegular>
+            <fontPlayers>./fonts/players.ttf</fontPlayers>
 
         </variables>
 </theme>
