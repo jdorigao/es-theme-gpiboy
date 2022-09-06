@@ -8,9 +8,9 @@ author:			Juliano Dorigão
     <formatVersion>7</formatVersion>
     <view name="detailed">
         <textlist name="gamelist">
-			<pos>0 0.55</pos>
+			<pos>0 0.563</pos>
 			<origin>0 0.5</origin>
-            <size>0.6 0.65</size>
+            <size>0.6 0.75</size>
             <alignment>left</alignment>
 			<selectorColor>${selectorColorBase}</selectorColor>
 			<selectedColor>${selectedColorBase}</selectedColor>
@@ -25,7 +25,7 @@ author:			Juliano Dorigão
 
         <video name="md_video">
             <origin>0.5 0.5</origin>
-            <pos>0.8 0.41</pos>            
+            <pos>0.8 0.41</pos>
 			<maxSize>0.38 0.38</maxSize>
             <delay>1.4</delay>
             <showSnapshotNoVideo>true</showSnapshotNoVideo>
@@ -59,11 +59,11 @@ author:			Juliano Dorigão
 			<origin>0 0.5</origin>
 			<path>./../art/icons/Contest.png</path>
 			<pos>0.75 0.83</pos>
-			<maxSize>0.07 0.07</maxSize>     
+			<maxSize>0.07 0.07</maxSize>
 			<color>${colorTextBase}</color>
 			<zIndex>100</zIndex>
 		</image>
-    
+
 		<image name="md_notcheevos">
 			<color>${unfilledColorBase}</color>
 		</image>
@@ -76,7 +76,7 @@ author:			Juliano Dorigão
             <color>${colorTextBase}</color>
             <zIndex>150</zIndex>
         </image>
-    
+
         <image name="md_nosavestate">
             <color>${unfilledColorBase}</color>
         </image>

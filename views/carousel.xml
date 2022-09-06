@@ -76,7 +76,7 @@ author:			Juliano Dorigão
 			<color>${colorTextBase}</color>
 			<tile>false</tile>
 			<size>1 0.005</size>
-			<pos>0 0.92</pos>
+			<pos>0 0.94</pos>
 			<origin>0 1</origin>
 			<path>./art/images/line.png</path>
 			<zIndex>50</zIndex>
@@ -114,7 +114,7 @@ author:			Juliano Dorigão
 			<color>${colorTextBase}</color>
 			<tile>false</tile>
 			<size>1 0.005</size>
-			<pos>0 0.92</pos>
+			<pos>0 0.94</pos>
 			<origin>0 1</origin>
 			<path>./art/images/line.png</path>
 			<zIndex>50</zIndex>

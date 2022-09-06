@@ -8,6 +8,7 @@ author:			Juliano Dorigão
 	<formatVersion>7</formatVersion>
     <include subset="colorset" name="default" displayName="Default">./colorsets/default.xml</include>
     
+    <include>./fonts/fonts.xml</include>
     <include>./views/screen.xml</include>
     <include>./views/menu.xml</include>
     <include>./views/carousel.xml</include>
@@ -29,9 +30,8 @@ author:			Juliano Dorigão
 			<textColor>${colorTextBase}</textColor>
 			<iconColor>${colorTextBase}</iconColor>
 			<fontPath>${fontTextBase}</fontPath>
-			<fontPath>${fontTextHelp}</fontPath>
 			<fontSize>0.04</fontSize>
-			<pos>0.01 0.936</pos>
+			<pos>0.01 0.955</pos>
 		</helpsystem>
     </view>
 </theme>

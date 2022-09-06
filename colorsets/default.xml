@@ -7,8 +7,8 @@ author:			Juliano Dorigão
 <theme>
     <formatVersion>7</formatVersion>
         <variables>
-            <colorBase>9eb816</colorBase>
-            <colorTextBase>011901</colorTextBase>
+            <colorBase>728800</colorBase>
+            <colorTextBase>020b02</colorTextBase>
 
             <!-- Menu -->
             <separatorColorBase>6c9304</separatorColorBase>
@@ -18,14 +18,5 @@ author:			Juliano Dorigão
 
             <!-- Menu -->
             <unfilledColorBase>586927</unfilledColorBase>
-
-            <!-- Font -->
-            <fontTextBase>./fonts/arcade.ttf</fontTextBase>
-            <fontTextClock>./fonts/ds-digib.ttf</fontTextClock>
-            <fontTextHelp>./fonts/titillium.ttf</fontTextHelp>
-            <fontMenuBold>./fonts/cabin-bold.ttf</fontMenuBold>
-            <fontMenuRegular>./fonts/cabin-regular.ttf</fontMenuRegular>
-            <fontPlayers>./fonts/players.ttf</fontPlayers>
-
         </variables>
 </theme>

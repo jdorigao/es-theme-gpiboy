@@ -9,17 +9,17 @@ author:			Juliano Dorigão
     <view name="screen">
 	  	<controllerActivity name="controllerActivity">
 			<pos>0.01 0.003</pos>
-			<size>0.07 0.05</size>
+			<size>0.07 0.03</size>
 			<itemSpacing>0.003</itemSpacing>
 			<color>${colorTextBase}</color>
 			<imagePath>./../art/icons/gamepad.svg</imagePath>
 			<activityColor>003E0A</activityColor>
 			<hotkeyColor>82A314</hotkeyColor>
-		</controllerActivity>		
-	
+		</controllerActivity>
+
 		<batteryIndicator name="batteryIndicator">
-			<pos>0.723 0.003</pos>
-			<size>0.08 0.08</size>
+			<pos>0.74 0.013</pos>
+			<size>0.08 0.06</size>
 			<incharge>./../art/battery/incharge.svg</incharge>
 			<full>./../art/battery/full.svg</full>
 			<at75>./../art/battery/75.svg</at75>
@@ -32,10 +32,10 @@ author:			Juliano Dorigão
 		</batteryIndicator>
 
 		<text name="clock">
-			<pos>0.8 0.004</pos>
-			<size>0.187 0.065</size>	
+			<pos>0.83 0.004</pos>
+			<size>0.16 0</size>
 			<fontPath>${fontTextClock}</fontPath>
-			<fontSize>0.054</fontSize>
+			<fontSize>0.04</fontSize>
 			<color>${colorTextBase}</color>
 			<alignment>center</alignment>
 			<verticalAlignment>center</verticalAlignment>

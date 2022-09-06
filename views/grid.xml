@@ -10,7 +10,7 @@ author:			Juliano Dorigão
     <view name="grid">
         <imagegrid name="gamegrid">
             <autoLayout>1 1</autoLayout>
-            <size>1 0.73</size>            
+            <size>1 0.75</size>            
             <pos>0 0.19</pos>
             <padding>0 0</padding>
             <margin>0 0</margin>
