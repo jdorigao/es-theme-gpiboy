@@ -57,7 +57,7 @@ author:			Juliano Dorigão
 
         <image name="md_cheevos,md_notcheevos">
 			<origin>0 0.5</origin>
-			<path>./../art/icons/Contest.png</path>
+			<path>./../art/icons/Contest.svg</path>
 			<pos>0.75 0.83</pos>
 			<maxSize>0.07 0.07</maxSize>
 			<color>${colorTextBase}</color>
@@ -70,7 +70,7 @@ author:			Juliano Dorigão
 
         <image name="md_savestate,md_nosavestate">
             <origin>0 0.5</origin>
-            <path>./../art/icons/SaveState.png</path>
+            <path>./../art/icons/SaveState.svg</path>
             <pos>0.82 0.83</pos>
             <maxSize>0.07 0.07</maxSize>
             <color>${colorTextBase}</color>
