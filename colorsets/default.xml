@@ -8,7 +8,7 @@ author:			Juliano Dorigão
     <formatVersion>7</formatVersion>
         <variables>
             <colorBase>728800</colorBase>
-            <colorTextBase>020b02</colorTextBase>
+            <colorTextBase>000000</colorTextBase>
 
             <!-- Menu -->
             <separatorColorBase>6c9304</separatorColorBase>

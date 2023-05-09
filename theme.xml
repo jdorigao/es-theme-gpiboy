@@ -7,23 +7,22 @@ author:			Juliano Dorigão
 <theme>
 	<formatVersion>7</formatVersion>
     <include subset="colorset" name="default" displayName="Default">./colorsets/default.xml</include>
-    
+
     <include>./fonts/fonts.xml</include>
     <include>./views/screen.xml</include>
     <include>./views/menu.xml</include>
     <include>./views/carousel.xml</include>
     <include>./views/basic.xml</include>
     <include>./views/detailed.xml</include>
-    <include>./views/grid.xml</include>    
-    
+    <include>./views/grid.xml</include>
+
     <view name="system, basic, detailed, grid">
         <image name="background" extra="true">
-            <color>${colorBase}</color>
             <size>1 1</size>
             <pos>0 0</pos>
             <origin>0 0</origin>
             <path>./art/images/bg.png</path>
-            <zIndex>0</zIndex>
+            <zIndex>1</zIndex>
         </image>
 
         <helpsystem name="help">

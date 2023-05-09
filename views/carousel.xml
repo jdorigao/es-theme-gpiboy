@@ -5,7 +5,7 @@ author:			Juliano Dorigão
 -->
 
 <theme>
-    <formatVersion>7</formatVersion>    
+    <formatVersion>7</formatVersion>
 	<view name="system">
 		<text name="manufacturerName" extra="static">
             <text>${system.sortedBy}</text>
@@ -14,7 +14,7 @@ author:			Juliano Dorigão
             <fontSize>0.07</fontSize>
             <pos>0.029 0.04</pos>
             <size>0.942 0.28</size>
-            <color>${colorTextBase}</color>      
+            <color>${colorTextBase}</color>
             <zIndex>100</zIndex>
         </text>
 
@@ -25,7 +25,7 @@ author:			Juliano Dorigão
             <fontSize>0.05</fontSize>
             <pos>0.03 0.12</pos>
             <size>0.94 0.28</size>
-            <color>${colorTextBase}</color>       
+            <color>${colorTextBase}</color>
             <zIndex>100</zIndex>
         </text>
 
@@ -35,14 +35,13 @@ author:			Juliano Dorigão
             <fontSize>0.05</fontSize>
             <pos>0.029 0.04</pos>
             <size>0.94 0.28</size>
-            <color>${colorTextBase}</color>       
+            <color>${colorTextBase}</color>
             <zIndex>100</zIndex>
 		</text>
 
 		<image name="controller" extra="true">
 			<path>./../art/controller/${system.theme}.svg</path>
 			<color>${colorTextBase}</color>
-			<backgroundColor>000000</backgroundColor>
 			<pos>0.5 0.45</pos>
 			<origin>0.5 0.5</origin>
 			<maxSize>0.45 0.45</maxSize>
@@ -67,11 +66,11 @@ author:			Juliano Dorigão
 		<image name="carousel-inner" extra="true">
 			<visible>false</visible>
 		</image>
-		
+
 		<image name="carousel-shadow" extra="true">
 			<visible>false</visible>
-		</image>		
-		
+		</image>
+
 		<image name="lineBar" extra="static">
 			<color>${colorTextBase}</color>
 			<tile>false</tile>
@@ -86,7 +85,7 @@ author:			Juliano Dorigão
 	<view name="basic, detailed, grid">
 		<carousel name="systemcarousel">
 			<color>FAFAFF00</color>
-			<colorEnd>FAFAFF00</colorEnd>			
+			<colorEnd>FAFAFF00</colorEnd>
 			<maxLogoCount>1</maxLogoCount>
 		</carousel>
 
@@ -97,7 +96,7 @@ author:			Juliano Dorigão
 			<fontSize>0.053</fontSize>
 			<color>${colorTextBase}</color>
 			<alignment>center</alignment>
-			<forceUppercase>true</forceUppercase> 
+			<forceUppercase>true</forceUppercase>
 		</text>
 
 		<image name="lineTitle" extra="static">
