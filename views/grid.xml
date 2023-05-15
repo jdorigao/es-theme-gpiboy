@@ -4,13 +4,13 @@ theme name:		GPIBoy
 author:			Juliano Dorigão
 -->
 
-<theme defaultView="grid">
-    <formatVersion>7</formatVersion>       
-   
+<theme>
+    <formatVersion>7</formatVersion>
+
     <view name="grid">
         <imagegrid name="gamegrid">
             <autoLayout>1 1</autoLayout>
-            <size>1 0.75</size>            
+            <size>1 0.75</size>
             <pos>0 0.19</pos>
             <padding>0 0</padding>
             <margin>0 0</margin>
@@ -29,7 +29,7 @@ author:			Juliano Dorigão
             <backgroundCornerSize>0 0</backgroundCornerSize>
             <padding>0 0</padding>
         </gridtile>
-        
+
         <gridtile name="selected">
             <backgroundColor>00000000</backgroundColor>
             <backgroundCenterColor>00000000</backgroundCenterColor>

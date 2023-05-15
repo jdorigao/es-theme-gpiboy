@@ -4,13 +4,13 @@ theme name:		GPIBoy
 author:			Juliano Dorigão
 -->
 
-<theme>
+<theme defaultView="detailed">
     <formatVersion>7</formatVersion>
     <view name="detailed">
         <textlist name="gamelist">
 			<pos>0 0.563</pos>
 			<origin>0 0.5</origin>
-            <size>0.6 0.75</size>
+            <size>0.5 0.75</size>
             <alignment>left</alignment>
 			<selectorColor>${selectorColorBase}</selectorColor>
 			<selectedColor>${selectedColorBase}</selectedColor>
@@ -18,74 +18,19 @@ author:			Juliano Dorigão
 			<primaryColor>${colorTextBase}</primaryColor>
 			<selectorGradientType>horizontal</selectorGradientType>
 			<fontPath>${fontTextBase}</fontPath>
-			<fontSize>0.045</fontSize>
+			<fontSize>0.04</fontSize>
 			<horizontalMargin>0.03</horizontalMargin>
 			<scrollSound>./art/sound/scroll.wav</scrollSound>
 		</textlist>
 
         <video name="md_video">
-            <origin>0.5 0.5</origin>
-            <pos>0.8 0.41</pos>
-			<maxSize>0.38 0.38</maxSize>
+            <pos>0.75 0.564</pos>
+            <size>0.5 0.745</size>
             <delay>1.4</delay>
             <showSnapshotNoVideo>true</showSnapshotNoVideo>
             <showSnapshotDelay>true</showSnapshotDelay>
             <loops>1</loops>
             <zIndex>30</zIndex>
         </video>
-
-        <rating name="md_rating">
-            <origin>0 0.5</origin>
-            <pos>0.65 0.7</pos>
-            <size>0.08 0.08</size>
-            <horizontalAlignment>center</horizontalAlignment>
-            <color>${colorTextBase}</color>
-            <unfilledColor>${unfilledColorBase}</unfilledColor>
-            <unfilledPath>:/star_filled.svg</unfilledPath>
-        </rating>
-
-        <text name="md_players">
-			<origin>0 0.5</origin>
-			<fontPath>${fontPlayers}</fontPath>
-			<text>1</text>
-			<size>0.07 0.07</size>
-			<pos>0.65 0.83</pos>
-			<alignment>center</alignment>
-			<fontSize>0.06</fontSize>
-			<color>${colorTextBase}</color>
-		</text>
-
-        <image name="md_cheevos,md_notcheevos">
-			<origin>0 0.5</origin>
-			<path>./../art/icons/Contest.svg</path>
-			<pos>0.75 0.83</pos>
-			<maxSize>0.07 0.07</maxSize>
-			<color>${colorTextBase}</color>
-			<zIndex>100</zIndex>
-		</image>
-
-		<image name="md_notcheevos">
-			<color>${unfilledColorBase}</color>
-		</image>
-
-        <image name="md_savestate,md_nosavestate">
-            <origin>0 0.5</origin>
-            <path>./../art/icons/SaveState.svg</path>
-            <pos>0.82 0.83</pos>
-            <maxSize>0.07 0.07</maxSize>
-            <color>${colorTextBase}</color>
-            <zIndex>150</zIndex>
-        </image>
-
-        <image name="md_nosavestate">
-            <color>${unfilledColorBase}</color>
-        </image>
-
-        <image name="md_flag">
-			<origin>0 0.5</origin>
-			<pos>0.9 0.83</pos>
-			<maxSize>0.07 0.07</maxSize>
-			<linearSmooth>true</linearSmooth>
-		</image>
     </view>
 </theme>
