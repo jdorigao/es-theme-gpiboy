@@ -37,11 +37,10 @@
             <fontPath>${fontMenuBold}</fontPath>
             <fontSize>0.033</fontSize>
             <color>${menuGroupTextColorBase}</color>
-            <backgroundColor>${colorBackground}</backgroundColor>
         </menuGroup>
 
         <menuBackground name="menubg">
-            <color>${colorBase}</color>
+            <color>${colorBackground}</color>
             <cornerSize>32 32</cornerSize>
             <scrollbarColor>96969620</scrollbarColor>
             <scrollbarCorner>0.49</scrollbarCorner>

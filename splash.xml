@@ -9,6 +9,7 @@ author:			Juliano Dorigão
     <formatVersion>7</formatVersion>
     <include subset="colorset" name="default" displayName="Default">./colorsets/default.xml</include>
     <include subset="colorset" name="dark" displayName="Dark">./colorsets/dark.xml</include>
+    <include subset="colorset" name="light" displayName="Light">./colorsets/light.xml</include>
 
     <view name="splash">
         <text name="batocera" extra="true">

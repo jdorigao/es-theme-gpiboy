@@ -7,7 +7,6 @@ author:			Juliano Dorigão
 <theme>
     <formatVersion>7</formatVersion>
         <variables>
-            <colorBase>262626</colorBase>
             <colorTextBase>6d6d6d</colorTextBase>
             <colorBackground>151515</colorBackground>
 

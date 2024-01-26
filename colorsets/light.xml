@@ -8,13 +8,13 @@ author:			Juliano Dorigão
     <formatVersion>7</formatVersion>
         <variables>
             <colorTextBase>000000</colorTextBase>
-            <colorBackground>557c37</colorBackground>
+            <colorBackground>858585</colorBackground>
 
             <!-- Menu -->
-            <separatorColorBase>43602d</separatorColorBase>
-            <selectorColorBase>002105</selectorColorBase>
-            <selectorColorEndBase>002105</selectorColorEndBase>
+            <separatorColorBase>707070</separatorColorBase>
+            <selectorColorBase>333333</selectorColorBase>
+            <selectorColorEndBase>333333</selectorColorEndBase>
             <selectedColorBase>DDDDDD</selectedColorBase>
-            <menuGroupTextColorBase>0f0031</menuGroupTextColorBase>
+            <menuGroupTextColorBase>000000</menuGroupTextColorBase>
         </variables>
 </theme>
