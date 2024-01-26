@@ -37,7 +37,7 @@
             <fontPath>${fontMenuBold}</fontPath>
             <fontSize>0.033</fontSize>
             <color>${menuGroupTextColorBase}</color>
-            <backgroundColor>${menuGroupColorBase}</backgroundColor>
+            <backgroundColor>${colorBackground}</backgroundColor>
         </menuGroup>
 
         <menuBackground name="menubg">

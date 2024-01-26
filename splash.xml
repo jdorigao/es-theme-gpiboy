@@ -8,6 +8,7 @@ author:			Juliano Dorigão
 <theme>
     <formatVersion>7</formatVersion>
     <include subset="colorset" name="default" displayName="Default">./colorsets/default.xml</include>
+    <include subset="colorset" name="dark" displayName="Dark">./colorsets/dark.xml</include>
 
     <view name="splash">
         <text name="batocera" extra="true">
@@ -38,7 +39,7 @@ author:			Juliano Dorigão
             <origin>0 0</origin>
             <path>./art/images/bg.png</path>
             <zIndex>0</zIndex>
-            <color>${menuGroupColorBase}</color>
+            <color>${colorBackground}</color>
         </image>
 
         <text name="label">

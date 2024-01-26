@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+theme name:		GPIBoy
+author:			Juliano Dorigão
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+        <variables>
+            <colorBase>262626</colorBase>
+            <colorTextBase>6d6d6d</colorTextBase>
+            <colorBackground>151515</colorBackground>
+
+            <!-- Menu -->
+            <separatorColorBase>2e2e2e</separatorColorBase>
+            <selectorColorBase>535353</selectorColorBase>
+            <selectorColorEndBase>535353</selectorColorEndBase>
+            <selectedColorBase>DDDDDD</selectedColorBase>
+            <menuGroupTextColorBase>ffffff</menuGroupTextColorBase>
+        </variables>
+</theme>

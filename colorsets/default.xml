@@ -9,6 +9,7 @@ author:			Juliano Dorigão
         <variables>
             <colorBase>577629</colorBase>
             <colorTextBase>000000</colorTextBase>
+            <colorBackground>557c37</colorBackground>
 
             <!-- Menu -->
             <separatorColorBase>43602d</separatorColorBase>
@@ -16,9 +17,5 @@ author:			Juliano Dorigão
             <selectorColorEndBase>002105</selectorColorEndBase>
             <selectedColorBase>DDDDDD</selectedColorBase>
             <menuGroupTextColorBase>0f0031</menuGroupTextColorBase>
-            <menuGroupColorBase>557c37</menuGroupColorBase>
-
-            <!-- Menu -->
-            <unfilledColorBase>586927</unfilledColorBase>
         </variables>
 </theme>
