@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!--
 theme name:		GPIBoy
 author:			Juliano Dorigão
@@ -7,13 +7,13 @@ author:			Juliano Dorigão
 <theme>
     <formatVersion>7</formatVersion>
         <variables>
-            <colorBase>4e7630</colorBase>
+            <colorBase>577629</colorBase>
             <colorTextBase>000000</colorTextBase>
 
             <!-- Menu -->
             <separatorColorBase>43602d</separatorColorBase>
             <selectorColorBase>002105</selectorColorBase>
-            <selectorColorEndBase>005a0e</selectorColorEndBase>
+            <selectorColorEndBase>002105</selectorColorEndBase>
             <selectedColorBase>DDDDDD</selectedColorBase>
             <menuGroupTextColorBase>0f0031</menuGroupTextColorBase>
             <menuGroupColorBase>557c37</menuGroupColorBase>

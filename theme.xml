@@ -22,7 +22,8 @@ author:			Juliano Dorigão
             <pos>0 0</pos>
             <origin>0 0</origin>
             <path>./art/images/bg.png</path>
-            <zIndex>1</zIndex>
+            <zIndex>0</zIndex>
+            <color>${menuGroupColorBase}</color>
         </image>
 
         <helpsystem name="help">

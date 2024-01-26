@@ -7,17 +7,14 @@ author:			Juliano Dorigão
 
 <theme>
     <formatVersion>7</formatVersion>
-    <variables>
-        <baseColor>000000</baseColor>
-        <backgroundColor>9eb816</backgroundColor>
-    </variables>
+    <include subset="colorset" name="default" displayName="Default">./colorsets/default.xml</include>
 
     <view name="splash">
         <text name="batocera" extra="true">
             <text>BATOCERA</text>
             <pos>0.5 0.5</pos>
             <origin>0.5 0.5</origin>
-            <color>${baseColor}</color>
+            <color>${colorTextBase}</color>
             <fontPath>./fonts/arcade.ttf</fontPath>
             <fontSize>0.18</fontSize>
             <alignment>center</alignment>
@@ -32,7 +29,7 @@ author:			Juliano Dorigão
 
         <image name="progressbar:active">
             <tile>true</tile>
-            <color>${baseColor}</color>
+            <color>${colorTextBase}</color>
         </image>
 
         <image name="background">
@@ -41,10 +38,11 @@ author:			Juliano Dorigão
             <origin>0 0</origin>
             <path>./art/images/bg.png</path>
             <zIndex>0</zIndex>
+            <color>${menuGroupColorBase}</color>
         </image>
 
         <text name="label">
-            <color>${baseColor}</color>
+            <color>${colorTextBase}</color>
             <fontPath>./fonts/arcade.ttf</fontPath>
         </text>
     </view>
