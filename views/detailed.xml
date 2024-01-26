@@ -18,7 +18,7 @@ author:			Juliano Dorigão
 			<primaryColor>${colorTextBase}</primaryColor>
 			<selectorGradientType>horizontal</selectorGradientType>
 			<fontPath>${fontTextBase}</fontPath>
-			<fontSize>0.04</fontSize>
+			<fontSize>0.05</fontSize>
 			<horizontalMargin>0.03</horizontalMargin>
 			<scrollSound>./art/sound/scroll.wav</scrollSound>
 		</textlist>

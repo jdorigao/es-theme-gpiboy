@@ -5,7 +5,7 @@ author:			Juliano Dorigão
 -->
 
 <theme>
-    <formatVersion>7</formatVersion>    
+    <formatVersion>7</formatVersion>
 	<view name="basic">
 		<textlist name="gamelist">
 			<pos>0.5 0.563</pos>
@@ -17,7 +17,7 @@ author:			Juliano Dorigão
 			<primaryColor>${colorTextBase}</primaryColor>
 			<selectorGradientType>horizontal</selectorGradientType>
 			<fontPath>${fontTextBase}</fontPath>
-			<fontSize>0.045</fontSize>
+			<fontSize>0.05</fontSize>
 			<alignment>center</alignment>
 			<horizontalMargin>0.03</horizontalMargin>
 			<scrollSound>./art/sound/scroll.wav</scrollSound>
