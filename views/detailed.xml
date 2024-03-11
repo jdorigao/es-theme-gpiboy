@@ -10,7 +10,7 @@ author:			Juliano Dorigão
         <textlist name="gamelist">
 			<pos>0 0.563</pos>
 			<origin>0 0.5</origin>
-            <size>0.5 0.75</size>
+            <size>0.55 0.73</size>
             <alignment>left</alignment>
 			<selectorColor>${selectorColorBase}</selectorColor>
 			<selectedColor>${selectedColorBase}</selectedColor>
@@ -18,13 +18,14 @@ author:			Juliano Dorigão
 			<primaryColor>${colorTextBase}</primaryColor>
 			<selectorGradientType>horizontal</selectorGradientType>
 			<fontPath>${fontTextBase}</fontPath>
-			<fontSize>0.05</fontSize>
+			<fontSize>0.04</fontSize>
 			<horizontalMargin>0.03</horizontalMargin>
 		</textlist>
 
         <video name="md_video">
-            <pos>0.75 0.564</pos>
-            <size>0.5 0.745</size>
+            <origin>0.5 0.5</origin>
+            <pos>0.78 0.564</pos>
+            <size>0.40 0.73</size>
             <delay>1.4</delay>
             <showSnapshotNoVideo>true</showSnapshotNoVideo>
             <showSnapshotDelay>true</showSnapshotDelay>

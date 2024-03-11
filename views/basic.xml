@@ -10,7 +10,7 @@ author:			Juliano Dorigão
 		<textlist name="gamelist">
 			<pos>0.5 0.563</pos>
 			<origin>0.5 0.5</origin>
-			<size>1 0.75</size>
+			<size>1 0.73</size>
 			<selectorColor>${selectorColorBase}</selectorColor>
 			<selectedColor>${selectedColorBase}</selectedColor>
 			<selectorColorEnd>${selectorColorEndBase}</selectorColorEnd>
