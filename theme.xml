@@ -27,13 +27,5 @@ author:			Juliano Dorigão
             <zIndex>0</zIndex>
             <color>${colorBackground}</color>
         </image>
-
-        <helpsystem name="help">
-			<textColor>${colorTextBase}</textColor>
-			<iconColor>${colorTextBase}</iconColor>
-			<fontPath>${fontTextBase}</fontPath>
-			<fontSize>0.04</fontSize>
-			<pos>0.01 0.955</pos>
-		</helpsystem>
     </view>
 </theme>

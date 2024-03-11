@@ -58,7 +58,7 @@ author:			Juliano Dorigão
 
 		<text name="logoText">
 			<fontPath>${fontTextBase}</fontPath>
-			<fontSize>0.07</fontSize>
+			<fontSize>0.08</fontSize>
 			<color>${colorTextBase}</color>
 			<forceUppercase>true</forceUppercase>
 		</text>
@@ -71,15 +71,14 @@ author:			Juliano Dorigão
 			<visible>false</visible>
 		</image>
 
-		<image name="lineBar" extra="static">
-			<color>${colorTextBase}</color>
-			<tile>false</tile>
-			<size>1 0.005</size>
-			<pos>0 0.94</pos>
-			<origin>0 1</origin>
-			<path>./art/images/line.png</path>
-			<zIndex>50</zIndex>
-		</image>
+		<helpsystem name="help">
+			<textColor>${colorTextBase}</textColor>
+			<iconColor>${colorTextBase}</iconColor>
+			<fontPath>${fontTextBase}</fontPath>
+			<fontSize>0.04</fontSize>
+			<origin>0.5 0</origin>
+            <pos>0.5 0.95</pos>
+		</helpsystem>
 	</view>
 
 	<view name="basic, detailed, grid">
@@ -113,10 +112,19 @@ author:			Juliano Dorigão
 			<color>${colorTextBase}</color>
 			<tile>false</tile>
 			<size>1 0.005</size>
-			<pos>0 0.94</pos>
+			<pos>0 0.93</pos>
 			<origin>0 1</origin>
 			<path>./art/images/line.png</path>
 			<zIndex>50</zIndex>
 		</image>
+
+        <helpsystem name="help">
+			<textColor>${colorTextBase}</textColor>
+			<iconColor>${colorTextBase}</iconColor>
+			<fontPath>${fontTextBase}</fontPath>
+			<fontSize>0.04</fontSize>
+			<origin>0.5 0</origin>
+            <pos>0.6 0.95</pos>
+		</helpsystem>
 	</view>
 </theme>

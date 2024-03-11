@@ -20,7 +20,6 @@ author:			Juliano Dorigão
 			<fontSize>0.05</fontSize>
 			<alignment>center</alignment>
 			<horizontalMargin>0.03</horizontalMargin>
-			<scrollSound>./art/sound/scroll.wav</scrollSound>
 		</textlist>
 	</view>
 </theme>
