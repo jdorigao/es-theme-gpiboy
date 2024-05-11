@@ -16,5 +16,8 @@ author:			Juliano Dorigão
             <selectorColorEndBase>002105</selectorColorEndBase>
             <selectedColorBase>DDDDDD</selectedColorBase>
             <menuGroupTextColorBase>0f0031</menuGroupTextColorBase>
+
+            <!-- System -->
+            <colorLogo>222d00</colorLogo>
         </variables>
 </theme>
