@@ -8,9 +8,9 @@ author:			Juliano Dorigão
     <formatVersion>7</formatVersion>
     <view name="detailed">
         <textlist name="gamelist">
-			<pos>0 0.563</pos>
+			<pos>0 0.5</pos>
 			<origin>0 0.5</origin>
-            <size>0.55 0.73</size>
+			<size>0.55 0.83</size>
             <alignment>left</alignment>
 			<selectorColor>${selectorColorBase}</selectorColor>
 			<selectedColor>${selectedColorBase}</selectedColor>
@@ -23,14 +23,23 @@ author:			Juliano Dorigão
 		</textlist>
 
         <video name="md_video">
+            <pos>0.775 0.44</pos>
             <origin>0.5 0.5</origin>
-            <pos>0.78 0.564</pos>
-            <size>0.40 0.73</size>
+            <size>0.44 0.7</size>
             <delay>1.4</delay>
             <showSnapshotNoVideo>true</showSnapshotNoVideo>
             <showSnapshotDelay>true</showSnapshotDelay>
             <loops>1</loops>
             <zIndex>30</zIndex>
         </video>
+
+        <rating name="md_rating">
+			<pos>0.85 0.82</pos>
+            <origin>0.5 0</origin>
+			<size>0.44 0.06</size>
+            <color>${colorTextBase}</color>
+			<filledPath>./art/images/rating_filled.svg</filledPath>
+			<unfilledPath>./art/images/rating_empty.svg</unfilledPath>
+		</rating>
     </view>
 </theme>
