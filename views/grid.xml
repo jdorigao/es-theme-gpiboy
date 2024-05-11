@@ -9,13 +9,10 @@ author:			Juliano Dorigão
     <view name="grid">
         <imagegrid name="gamegrid">
             <autoLayout>1 1</autoLayout>
-            <size>1 0.75</size>
-            <pos>0 0.19</pos>
-            <padding>0 0</padding>
-            <margin>0 0</margin>
+            <pos>0 0.085</pos>
+            <size>1 0.85</size>
             <autoLayoutSelectedZoom>1.02</autoLayoutSelectedZoom>
             <imageSource>image</imageSource>
-            <margin>0.002 0.004</margin>
             <showVideoAtDelay>800</showVideoAtDelay>
             <zIndex>13</zIndex>
             <scrollDirection>horizontal</scrollDirection>
