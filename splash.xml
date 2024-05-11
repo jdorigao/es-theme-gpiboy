@@ -12,13 +12,13 @@ author:			Juliano Dorigão
     <include subset="colorset" name="light" displayName="Light">./colorsets/light.xml</include>
 
     <view name="splash">
-        <text name="batocera" extra="true">
-            <text>BATOCERA</text>
+        <text name="gpiboy" extra="true">
+            <text>GPIBoy</text>
             <pos>0.5 0.5</pos>
             <origin>0.5 0.5</origin>
             <color>${colorTextBase}</color>
             <fontPath>./fonts/arcade.ttf</fontPath>
-            <fontSize>0.18</fontSize>
+            <fontSize>0.20</fontSize>
             <alignment>center</alignment>
             <verticalAlignment>center</verticalAlignment>
         </text>

@@ -6,7 +6,6 @@ author:			Juliano Dorigão
 
 <theme>
     <formatVersion>7</formatVersion>
-
     <view name="grid">
         <imagegrid name="gamegrid">
             <autoLayout>1 1</autoLayout>

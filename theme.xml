@@ -6,20 +6,27 @@ author:			Juliano Dorigão
 
 <theme>
 	<formatVersion>7</formatVersion>
-    <include subset="colorset" name="default" displayName="Default">./colorsets/default.xml</include>
-    <include subset="colorset" name="dark" displayName="Dark">./colorsets/dark.xml</include>
-    <include subset="colorset" name="light" displayName="Light">./colorsets/light.xml</include>
-
     <include>./fonts/fonts.xml</include>
-    <include>./views/screen.xml</include>
+
+    <subset name="colorset" displayName="ColorSet">
+        <include name="default" displayName="Default">./colorsets/default.xml</include>
+        <include name="dark" displayName="Dark">./colorsets/dark.xml</include>
+        <include name="light" displayName="Light">./colorsets/light.xml</include>
+    </subset>
+
+    <subset name="view" displayName="View">
+        <include name="system" displayName="System">./views/system.xml</include>
+        <include name="controller" displayName="Controller">./views/controller.xml</include>
+    </subset>
+
     <include>./views/menu.xml</include>
-    <include>./views/carousel.xml</include>
+    <include>./views/screen.xml</include>
     <include>./views/basic.xml</include>
     <include>./views/detailed.xml</include>
     <include>./views/grid.xml</include>
 
-    <view name="system, basic, detailed, grid">
-        <image name="background" extra="true">
+    <view name="system">
+        <image name="background" extra="static">
             <size>1 1</size>
             <pos>0 0</pos>
             <origin>0 0</origin>
@@ -27,5 +34,43 @@ author:			Juliano Dorigão
             <zIndex>0</zIndex>
             <color>${colorBackground}</color>
         </image>
+
+        <helpsystem name="help">
+			<textColor>${colorTextBase}</textColor>
+			<iconColor>${colorTextBase}</iconColor>
+			<fontPath>${fontTextBase}</fontPath>
+			<fontSize>0.04</fontSize>
+			<origin>0.5 0.5</origin>
+            <pos>0.5 0.97</pos>
+		</helpsystem>
     </view>
+
+    <view name="basic, detailed, grid">
+        <image name="background" extra="static">
+            <size>1 1</size>
+            <pos>0 0</pos>
+            <origin>0 0</origin>
+            <path>./art/images/bg.png</path>
+            <zIndex>0</zIndex>
+            <color>${colorBackground}</color>
+        </image>
+
+        <text name="logoText">
+			<fontPath>${fontTextBase}</fontPath>
+			<origin>0.5 0.5</origin>
+			<pos>0.4 0.045</pos>
+			<fontSize>0.04</fontSize>
+			<color>${colorTextBase}</color>
+			<alignment>center</alignment>
+			<forceUppercase>true</forceUppercase>
+		</text>
+
+        <helpsystem name="help">
+			<textColor>${colorTextBase}</textColor>
+			<iconColor>${colorTextBase}</iconColor>
+			<fontPath>${fontTextBase}</fontPath>
+			<fontSize>0.04</fontSize>
+			<pos>0.02 0.955</pos>
+		</helpsystem>
+	</view>
 </theme>

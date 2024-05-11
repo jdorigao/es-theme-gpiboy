@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--
+theme name:		GPIBoy
+author:			Juliano Dorigão
+-->
+
+<theme>
+    <formatVersion>7</formatVersion>
+	<view name="system">
+		<text name="manufacturerName" extra="static">
+            <text>${system.sortedBy}</text>
+            <alignment>left</alignment>
+            <fontPath>${fontTextBase}</fontPath>
+            <fontSize>0.07</fontSize>
+            <pos>0.03 0.05</pos>
+            <size>0.693 0</size>
+            <color>${colorTextBase}</color>
+            <zIndex>100</zIndex>
+        </text>
+
+        <text name="releaseYyear" extra="true">
+            <text>${system.releaseYearOrNull}</text>
+            <alignment>left</alignment>
+            <fontPath>${fontTextBase}</fontPath>
+            <fontSize>0.05</fontSize>
+            <pos>0.03 0.12</pos>
+            <size>0.2 0</size>
+            <color>${colorTextBase}</color>
+            <zIndex>100</zIndex>
+        </text>
+
+		<text name="systemInfo">
+			<alignment>right</alignment>
+            <fontPath>${fontTextBase}</fontPath>
+            <fontSize>0.05</fontSize>
+            <pos>0.7 0.065</pos>
+            <size>0.28 0</size>
+            <color>${colorTextBase}</color>
+            <zIndex>100</zIndex>
+		</text>
+
+        <text name="logoText">
+			<fontPath>${fontTextBase}</fontPath>
+			<fontSize>0.08</fontSize>
+			<color>${colorTextBase}</color>
+			<forceUppercase>true</forceUppercase>
+		</text>
+
+		<image name="logo">
+			<path>./../art/system/${system.theme}.svg</path>
+			<color>${colorTextBase}</color>
+      	</image>
+
+		<carousel name="systemcarousel">
+			<color>FAFAFF00</color>
+			<colorEnd>FAFAFF00</colorEnd>
+			<pos>0 0</pos>
+            <size>1 1</size>
+			<logoSize>0.5 0.5</logoSize>
+			<maxLogoCount>1</maxLogoCount>
+		</carousel>
+
+        <image name="carousel-inner" extra="true">
+			<visible>false</visible>
+		</image>
+
+		<image name="carousel-shadow" extra="true">
+			<visible>false</visible>
+		</image>
+	</view>
+</theme>
