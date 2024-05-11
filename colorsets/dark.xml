@@ -7,8 +7,8 @@ author:			Juliano Dorigão
 <theme>
     <formatVersion>7</formatVersion>
         <variables>
-            <colorTextBase>6d6d6d</colorTextBase>
-            <colorBackground>151515</colorBackground>
+            <colorTextBase>a2a2a2</colorTextBase>
+            <colorBackground>2b2b2b</colorBackground>
 
             <!-- Menu -->
             <separatorColorBase>2e2e2e</separatorColorBase>
