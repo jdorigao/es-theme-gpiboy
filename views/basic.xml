@@ -11,9 +11,8 @@ author:			Juliano Dorigão
             <pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
 			<size>1 0.83</size>
-			<selectorColor>${selectorColorBase}</selectorColor>
+			<selectorColor>${colorBackground}</selectorColor>
 			<selectedColor>${selectedColorBase}</selectedColor>
-			<selectorColorEnd>${selectorColorEndBase}</selectorColorEnd>
 			<primaryColor>${colorTextBase}</primaryColor>
 			<selectorGradientType>horizontal</selectorGradientType>
 			<fontPath>${fontTextBase}</fontPath>

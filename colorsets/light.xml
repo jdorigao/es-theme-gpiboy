@@ -7,17 +7,15 @@ author:			Juliano Dorigão
 <theme>
     <formatVersion>7</formatVersion>
         <variables>
-            <colorTextBase>000000</colorTextBase>
+            <!-- System -->
+            <colorTextBase>101010</colorTextBase>
             <colorBackground>858585</colorBackground>
 
             <!-- Menu -->
             <separatorColorBase>707070</separatorColorBase>
-            <selectorColorBase>333333</selectorColorBase>
-            <selectorColorEndBase>333333</selectorColorEndBase>
             <selectedColorBase>DDDDDD</selectedColorBase>
-            <menuGroupTextColorBase>000000</menuGroupTextColorBase>
-
-            <!-- System -->
-            <colorLogo>2f2f2f</colorLogo>
+            <selectedColorBase>ffffff</selectedColorBase>
+            <menuGroupColorBase>000000</menuGroupColorBase>
+            <menuGroupBackgroundColor>616161</menuGroupBackgroundColor>
         </variables>
 </theme>

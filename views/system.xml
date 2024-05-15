@@ -48,7 +48,7 @@ author:			Juliano Dorigão
 
 		<image name="logo">
 			<path>./../art/system/${system.theme}.svg</path>
-			<color>${colorLogo}</color>
+			<color>${colorTextBase}</color>
       	</image>
 
 		<carousel name="systemcarousel">
