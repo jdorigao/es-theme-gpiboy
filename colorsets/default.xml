@@ -8,7 +8,8 @@ author:			Juliano Dorigão
     <formatVersion>7</formatVersion>
         <variables>
             <!-- System -->
-            <colorTextBase>151d00</colorTextBase>
+            <colorTextBase>000000</colorTextBase>
+            <colorLogoBase>202d00</colorLogoBase>
             <colorBackground>557c37</colorBackground>
 
             <!-- Menu -->
