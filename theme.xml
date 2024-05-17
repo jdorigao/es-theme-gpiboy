@@ -77,8 +77,7 @@ author:			Juliano Dorigão
 			<iconColor>${colorTextBase}</iconColor>
 			<fontPath>${fontMenuRegular}</fontPath>
             <fontSize>0.032</fontSize>
-            <pos>0.5 0.96</pos>
-            <origin>0.5 0.5</origin>
+            <pos>0.02 0.95</pos>
             <iconUpDown>./art/icons/help/help-dpad-updown.svg</iconUpDown>
             <iconLeftRight>./art/icons/help/help-dpad-leftright.svg</iconLeftRight>
             <iconUpDownLeftRight>./art/icons/help/help-dpad-updownleftright.svg</iconUpDownLeftRight>

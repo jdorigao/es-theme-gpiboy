@@ -41,6 +41,7 @@
         <menuBackground name="menubg">
             <color>${colorBackground}</color>
             <cornerSize>32 32</cornerSize>
+            <path>./art/images/frame.png</path>
         </menuBackground>
 
         <menuIcons name="menuicons">

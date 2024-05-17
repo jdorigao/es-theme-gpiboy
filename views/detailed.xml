@@ -10,7 +10,7 @@ author:			Juliano Dorigão
         <textlist name="gamelist">
 			<pos>0 0.5</pos>
 			<origin>0 0.5</origin>
-			<size>0.55 0.83</size>
+			<size>0.55 0.85</size>
             <alignment>left</alignment>
 			<selectorColor>${colorBackground}</selectorColor>
 			<selectedColor>${selectedColorBase}</selectedColor>
@@ -22,9 +22,9 @@ author:			Juliano Dorigão
 		</textlist>
 
         <video name="md_video">
-            <pos>0.775 0.44</pos>
+            <pos>0.78 0.44</pos>
             <origin>0.5 0.5</origin>
-            <size>0.44 0.7</size>
+            <size>0.4 0.7</size>
             <delay>1.4</delay>
             <showSnapshotNoVideo>true</showSnapshotNoVideo>
             <showSnapshotDelay>true</showSnapshotDelay>

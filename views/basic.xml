@@ -10,15 +10,14 @@ author:			Juliano Dorigão
 		<textlist name="gamelist">
             <pos>0.5 0.5</pos>
 			<origin>0.5 0.5</origin>
-			<size>1 0.83</size>
+			<size>1 0.85</size>
 			<selectorColor>${colorBackground}</selectorColor>
 			<selectedColor>${selectedColorBase}</selectedColor>
 			<primaryColor>${colorTextBase}</primaryColor>
-			<selectorGradientType>horizontal</selectorGradientType>
 			<fontPath>${fontTextBase}</fontPath>
 			<fontSize>0.05</fontSize>
 			<alignment>center</alignment>
-			<horizontalMargin>0.03</horizontalMargin>
+            <horizontalMargin>0.03</horizontalMargin>
 		</textlist>
 	</view>
 </theme>

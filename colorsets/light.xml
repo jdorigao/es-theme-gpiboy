@@ -9,7 +9,7 @@ author:			Juliano Dorigão
         <variables>
             <!-- System -->
             <colorTextBase>101010</colorTextBase>
-            <colorLogoBase>151d00</colorLogoBase>
+            <colorLogoBase>101010</colorLogoBase>
             <colorBackground>858585</colorBackground>
 
             <!-- Menu -->
