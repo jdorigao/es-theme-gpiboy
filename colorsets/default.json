@@ -1,0 +1,37 @@
+{
+  "formatVersion": 7.0,
+  "variables": [
+    {
+      "key": "colorTextBase",
+      "value": "000000"
+    },
+    {
+      "key": "colorLogoBase",
+      "value": "202d00"
+    },
+    {
+      "key": "colorBackground",
+      "value": "557c37"
+    },
+    {
+      "key": "separatorColorBase",
+      "value": "43602d"
+    },
+    {
+      "key": "selectorColorBase",
+      "value": "002105"
+    },
+    {
+      "key": "selectedColorBase",
+      "value": "ffffff"
+    },
+    {
+      "key": "menuGroupColorBase",
+      "value": "011304"
+    },
+    {
+      "key": "menuGroupBackgroundColor",
+      "value": "55743e"
+    }
+  ]
+}

@@ -1,15 +1,25 @@
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <!--
 theme name:		GPIBoy
 author:			Juliano Dorigão
 -->
-
 <theme>
     <formatVersion>7</formatVersion>
-    <include subset="colorset" name="default" displayName="Default">./colorsets/default.xml</include>
-    <include subset="colorset" name="dark" displayName="Dark">./colorsets/dark.xml</include>
-    <include subset="colorset" name="light" displayName="Light">./colorsets/light.xml</include>
+    <include
+        subset="colorset"
+        name="default"
+        displayName="Default"
+    >./colorsets/default.xml</include>
+    <include
+        subset="colorset"
+        name="dark"
+        displayName="Dark"
+    >./colorsets/dark.xml</include>
+    <include
+        subset="colorset"
+        name="light"
+        displayName="Light"
+    >./colorsets/light.xml</include>
 
     <view name="splash">
         <text name="gpiboy" extra="true">

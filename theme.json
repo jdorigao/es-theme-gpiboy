@@ -1,0 +1,293 @@
+{
+  "formatVersion": 7.0,
+  "nodes": [
+    {
+      "type": "include",
+      "path": "./fonts/fonts.json"
+    },
+    {
+      "type": "subset",
+      "name": "colorset",
+      "displayName": "ColorSet",
+      "nodes": [
+        {
+          "type": "include",
+          "path": "./colorsets/default.json",
+          "name": "default",
+          "displayName": "Default"
+        },
+        {
+          "type": "include",
+          "path": "./colorsets/dark.json",
+          "name": "dark",
+          "displayName": "Dark"
+        },
+        {
+          "type": "include",
+          "path": "./colorsets/light.json",
+          "name": "light",
+          "displayName": "Light"
+        }
+      ]
+    },
+    {
+      "type": "subset",
+      "name": "view",
+      "displayName": "View",
+      "nodes": [
+        {
+          "type": "include",
+          "path": "./views/system.json",
+          "name": "system",
+          "displayName": "System"
+        },
+        {
+          "type": "include",
+          "path": "./views/controller.json",
+          "name": "controller",
+          "displayName": "Controller"
+        }
+      ]
+    },
+    {
+      "type": "include",
+      "path": "./views/menu.json"
+    },
+    {
+      "type": "include",
+      "path": "./views/screen.json"
+    },
+    {
+      "type": "include",
+      "path": "./views/basic.json"
+    },
+    {
+      "type": "include",
+      "path": "./views/detailed.json"
+    },
+    {
+      "type": "include",
+      "path": "./views/grid.json"
+    },
+    {
+      "type": "view",
+      "name": "system",
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "extra": "static",
+          "props": [
+            {
+              "name": "size",
+              "value": "1 1"
+            },
+            {
+              "name": "pos",
+              "value": "0 0"
+            },
+            {
+              "name": "origin",
+              "value": "0 0"
+            },
+            {
+              "name": "path",
+              "value": "./art/images/bg.png"
+            },
+            {
+              "name": "zIndex",
+              "value": "0"
+            },
+            {
+              "name": "color",
+              "value": "${colorBackground}"
+            }
+          ]
+        },
+        {
+          "type": "helpsystem",
+          "name": "help",
+          "props": [
+            {
+              "name": "textColor",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "iconColor",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "fontPath",
+              "value": "${fontMenuRegular}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.032"
+            },
+            {
+              "name": "pos",
+              "value": "0.5 0.96"
+            },
+            {
+              "name": "origin",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "iconUpDown",
+              "value": "./art/icons/help/help-dpad-updown.svg"
+            },
+            {
+              "name": "iconLeftRight",
+              "value": "./art/icons/help/help-dpad-leftright.svg"
+            },
+            {
+              "name": "iconUpDownLeftRight",
+              "value": "./art/icons/help/help-dpad-updownleftright.svg"
+            },
+            {
+              "name": "iconA",
+              "value": "./art/icons/help/help-button-east.svg"
+            },
+            {
+              "name": "iconB",
+              "value": "./art/icons/help/help-button-south.svg"
+            },
+            {
+              "name": "iconX",
+              "value": "./art/icons/help/help-button-north.svg"
+            },
+            {
+              "name": "iconY",
+              "value": "./art/icons/help/help-button-west.svg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "view",
+      "name": "basic, detailed, grid",
+      "elements": [
+        {
+          "type": "image",
+          "name": "background",
+          "extra": "static",
+          "props": [
+            {
+              "name": "size",
+              "value": "1 1"
+            },
+            {
+              "name": "pos",
+              "value": "0 0"
+            },
+            {
+              "name": "origin",
+              "value": "0 0"
+            },
+            {
+              "name": "path",
+              "value": "./art/images/bg.png"
+            },
+            {
+              "name": "zIndex",
+              "value": "0"
+            },
+            {
+              "name": "color",
+              "value": "${colorBackground}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "logoText",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontTextBase}"
+            },
+            {
+              "name": "origin",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "pos",
+              "value": "0.37 0.045"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.04"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "alignment",
+              "value": "center"
+            },
+            {
+              "name": "forceUppercase",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "helpsystem",
+          "name": "help",
+          "props": [
+            {
+              "name": "textColor",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "iconColor",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "fontPath",
+              "value": "${fontMenuRegular}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.032"
+            },
+            {
+              "name": "pos",
+              "value": "0.02 0.95"
+            },
+            {
+              "name": "iconUpDown",
+              "value": "./art/icons/help/help-dpad-updown.svg"
+            },
+            {
+              "name": "iconLeftRight",
+              "value": "./art/icons/help/help-dpad-leftright.svg"
+            },
+            {
+              "name": "iconUpDownLeftRight",
+              "value": "./art/icons/help/help-dpad-updownleftright.svg"
+            },
+            {
+              "name": "iconA",
+              "value": "./art/icons/help/help-button-east.svg"
+            },
+            {
+              "name": "iconB",
+              "value": "./art/icons/help/help-button-south.svg"
+            },
+            {
+              "name": "iconX",
+              "value": "./art/icons/help/help-button-north.svg"
+            },
+            {
+              "name": "iconY",
+              "value": "./art/icons/help/help-button-west.svg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

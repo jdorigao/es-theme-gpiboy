@@ -1,0 +1,244 @@
+{
+  "formatVersion": 7.0,
+  "nodes": [
+    {
+      "type": "view",
+      "name": "menu",
+      "elements": [
+        {
+          "type": "menuText",
+          "name": "menutitle",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontMenuBold}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.044"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            }
+          ]
+        },
+        {
+          "type": "menuText",
+          "name": "menufooter",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontMenuRegular}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.02"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            }
+          ]
+        },
+        {
+          "type": "menuText",
+          "name": "menutext",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontMenuRegular}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.0325"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.034",
+              "filters": {
+                "tinyScreen": "true"
+              }
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "separatorColor",
+              "value": "${separatorColorBase}"
+            },
+            {
+              "name": "selectorColor",
+              "value": "${selectorColorBase}"
+            }
+          ]
+        },
+        {
+          "type": "menuTextSmall",
+          "name": "menutextsmall",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontMenuRegular}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.025"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            }
+          ]
+        },
+        {
+          "type": "menuGroup",
+          "name": "menugroup",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontMenuBold}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.033"
+            },
+            {
+              "name": "color",
+              "value": "${menuGroupColorBase}"
+            },
+            {
+              "name": "separatorColor",
+              "value": "${menuGroupColorBase}"
+            },
+            {
+              "name": "backgroundColor",
+              "value": "${menuGroupBackgroundColor}"
+            }
+          ]
+        },
+        {
+          "type": "menuBackground",
+          "name": "menubg",
+          "props": [
+            {
+              "name": "color",
+              "value": "${colorBackground}"
+            },
+            {
+              "name": "cornerSize",
+              "value": "32 32"
+            },
+            {
+              "name": "path",
+              "value": "./art/images/frame.png"
+            }
+          ]
+        },
+        {
+          "type": "menuIcons",
+          "name": "menuicons",
+          "props": [
+            {
+              "name": "iconKodi",
+              "value": "./../art/icons/Kodi.svg"
+            },
+            {
+              "name": "iconSystem",
+              "value": "./../art/icons/System.svg"
+            },
+            {
+              "name": "iconUpdates",
+              "value": "./../art/icons/Updates.svg"
+            },
+            {
+              "name": "iconGames",
+              "value": "./../art/icons/Games.svg"
+            },
+            {
+              "name": "iconControllers",
+              "value": "./../art/icons/Controllers.svg"
+            },
+            {
+              "name": "iconUI",
+              "value": "./../art/icons/UI.svg"
+            },
+            {
+              "name": "iconSound",
+              "value": "./../art/icons/Sound.svg"
+            },
+            {
+              "name": "iconNetwork",
+              "value": "./../art/icons/Network.svg"
+            },
+            {
+              "name": "iconScraper",
+              "value": "./../art/icons/Scraper.svg"
+            },
+            {
+              "name": "iconAdvanced",
+              "value": "./../art/icons/Advanced.svg"
+            },
+            {
+              "name": "iconQuit",
+              "value": "./../art/icons/Quit.svg"
+            },
+            {
+              "name": "iconRestart",
+              "value": "./../art/icons/Restart.svg"
+            },
+            {
+              "name": "iconShutdown",
+              "value": "./../art/icons/Shutdown.svg"
+            },
+            {
+              "name": "iconFastShutdown",
+              "value": "./../art/icons/Fastshutdown.svg"
+            },
+            {
+              "name": "iconRetroachievements",
+              "value": "./../art/icons/Contest.svg"
+            },
+            {
+              "name": "iconManual",
+              "value": "./../art/icons/Manual.svg"
+            }
+          ]
+        },
+        {
+          "type": "menuTextEdit",
+          "name": "menutextedit",
+          "props": [
+            {
+              "name": "inactive",
+              "value": "./../art/images/textinput_ninepatch.png"
+            },
+            {
+              "name": "active",
+              "value": "./../art/images/textinput_ninepatch_active.png"
+            }
+          ]
+        },
+        {
+          "type": "menuButton",
+          "name": "menubutton",
+          "props": [
+            {
+              "name": "path",
+              "value": "./../art/images/button.png"
+            },
+            {
+              "name": "filledPath",
+              "value": "./../art/images/button_filled.png"
+            },
+            {
+              "name": "cornerSize",
+              "value": "8 8"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

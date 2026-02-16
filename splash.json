@@ -1,0 +1,147 @@
+{
+  "formatVersion": 7.0,
+  "nodes": [
+    {
+      "type": "include",
+      "path": "./colorsets/default.json",
+      "subset": "colorset",
+      "name": "default",
+      "displayName": "Default"
+    },
+    {
+      "type": "include",
+      "path": "./colorsets/dark.json",
+      "subset": "colorset",
+      "name": "dark",
+      "displayName": "Dark"
+    },
+    {
+      "type": "include",
+      "path": "./colorsets/light.json",
+      "subset": "colorset",
+      "name": "light",
+      "displayName": "Light"
+    },
+    {
+      "type": "view",
+      "name": "splash",
+      "elements": [
+        {
+          "type": "text",
+          "name": "gpiboy",
+          "extra": true,
+          "props": [
+            {
+              "name": "text",
+              "value": "GPIBoy"
+            },
+            {
+              "name": "pos",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "origin",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "fontPath",
+              "value": "./fonts/arcade.ttf"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.20"
+            },
+            {
+              "name": "alignment",
+              "value": "center"
+            },
+            {
+              "name": "verticalAlignment",
+              "value": "center"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "name": "progressbar",
+          "props": [
+            {
+              "name": "color",
+              "value": "4246427F"
+            },
+            {
+              "name": "colorEnd",
+              "value": "4246427F"
+            },
+            {
+              "name": "roundCorners",
+              "value": "0.02"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "name": "progressbar:active",
+          "props": [
+            {
+              "name": "tile",
+              "value": true
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "name": "background",
+          "props": [
+            {
+              "name": "size",
+              "value": "1 1"
+            },
+            {
+              "name": "pos",
+              "value": "0 0"
+            },
+            {
+              "name": "origin",
+              "value": "0 0"
+            },
+            {
+              "name": "path",
+              "value": "./art/images/bg.png"
+            },
+            {
+              "name": "zIndex",
+              "value": "0"
+            },
+            {
+              "name": "color",
+              "value": "${colorBackground}"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "label",
+          "props": [
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "fontPath",
+              "value": "./fonts/arcade.ttf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

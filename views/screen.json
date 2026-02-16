@@ -1,0 +1,133 @@
+{
+  "formatVersion": 7.0,
+  "nodes": [
+    {
+      "type": "view",
+      "name": "screen",
+      "elements": [
+        {
+          "type": "controllerActivity",
+          "name": "controllerActivity",
+          "props": [
+            {
+              "name": "pos",
+              "value": "0.01 0.01"
+            },
+            {
+              "name": "origin",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "size",
+              "value": "0.07 0.03"
+            },
+            {
+              "name": "itemSpacing",
+              "value": "0.003"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "imagePath",
+              "value": "./../art/icons/gamepad.svg"
+            },
+            {
+              "name": "activityColor",
+              "value": "003E0A"
+            },
+            {
+              "name": "hotkeyColor",
+              "value": "82A314"
+            }
+          ]
+        },
+        {
+          "type": "batteryIndicator",
+          "name": "batteryIndicator",
+          "props": [
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "pos",
+              "value": "0.77 0.012"
+            },
+            {
+              "name": "origin",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "size",
+              "value": "0.04 0.05"
+            },
+            {
+              "name": "full",
+              "value": "./../art/icons/battery/full.svg"
+            },
+            {
+              "name": "at75",
+              "value": "./../art/icons/battery/75.svg"
+            },
+            {
+              "name": "at50",
+              "value": "./../art/icons/battery/50.svg"
+            },
+            {
+              "name": "at25",
+              "value": "./../art/icons/battery/25.svg"
+            },
+            {
+              "name": "empty",
+              "value": "./../art/icons/battery/empty.svg"
+            },
+            {
+              "name": "alignment",
+              "value": "right"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "clock",
+          "props": [
+            {
+              "name": "pos",
+              "value": "0.9 0.04"
+            },
+            {
+              "name": "origin",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "size",
+              "value": "0.18 0.1"
+            },
+            {
+              "name": "fontPath",
+              "value": "${fontTextClock}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.05"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "alignment",
+              "value": "center"
+            },
+            {
+              "name": "verticalAlignment",
+              "value": "center"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

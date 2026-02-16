@@ -1,0 +1,25 @@
+{
+  "formatVersion": 7.0,
+  "variables": [
+    {
+      "key": "fontTextBase",
+      "value": "./fonts/arcade.ttf"
+    },
+    {
+      "key": "fontTextClock",
+      "value": "./fonts/ds-digib.ttf"
+    },
+    {
+      "key": "fontMenuBold",
+      "value": "./fonts/cabin-bold.ttf"
+    },
+    {
+      "key": "fontMenuRegular",
+      "value": "./fonts/cabin-regular.ttf"
+    },
+    {
+      "key": "fontPlayers",
+      "value": "./fonts/players.ttf"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "formatVersion": 7.0,
+  "variables": [
+    {
+      "key": "colorTextBase",
+      "value": "101010"
+    },
+    {
+      "key": "colorLogoBase",
+      "value": "101010"
+    },
+    {
+      "key": "colorBackground",
+      "value": "858585"
+    },
+    {
+      "key": "separatorColorBase",
+      "value": "707070"
+    },
+    {
+      "key": "selectedColorBase",
+      "value": "DDDDDD"
+    },
+    {
+      "key": "selectedColorBase",
+      "value": "ffffff"
+    },
+    {
+      "key": "menuGroupColorBase",
+      "value": "000000"
+    },
+    {
+      "key": "menuGroupBackgroundColor",
+      "value": "616161"
+    }
+  ]
+}

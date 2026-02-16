@@ -1,0 +1,177 @@
+{
+  "formatVersion": 7.0,
+  "nodes": [
+    {
+      "type": "view",
+      "name": "grid",
+      "elements": [
+        {
+          "type": "imagegrid",
+          "name": "gamegrid",
+          "props": [
+            {
+              "name": "autoLayout",
+              "value": "1 1"
+            },
+            {
+              "name": "pos",
+              "value": "0 0.085"
+            },
+            {
+              "name": "size",
+              "value": "1 0.85"
+            },
+            {
+              "name": "autoLayoutSelectedZoom",
+              "value": "1.02"
+            },
+            {
+              "name": "imageSource",
+              "value": "image"
+            },
+            {
+              "name": "showVideoAtDelay",
+              "value": "800"
+            },
+            {
+              "name": "zIndex",
+              "value": "13"
+            },
+            {
+              "name": "scrollDirection",
+              "value": "horizontal"
+            },
+            {
+              "name": "centerSelection",
+              "value": true
+            },
+            {
+              "name": "scrollLoop",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "gridtile",
+          "name": "default",
+          "props": [
+            {
+              "name": "imageSizeMode",
+              "value": "minSize"
+            },
+            {
+              "name": "backgroundCornerSize",
+              "value": "0 0"
+            },
+            {
+              "name": "padding",
+              "value": "0 0"
+            }
+          ]
+        },
+        {
+          "type": "gridtile",
+          "name": "selected",
+          "props": [
+            {
+              "name": "backgroundColor",
+              "value": "00000000"
+            },
+            {
+              "name": "backgroundCenterColor",
+              "value": "00000000"
+            },
+            {
+              "name": "backgroundEdgeColor",
+              "value": "00000000"
+            },
+            {
+              "name": "backgroundCornerSize",
+              "value": "0 0"
+            },
+            {
+              "name": "padding",
+              "value": "0 0"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "name": "gridtile.marquee",
+          "props": [
+            {
+              "name": "color",
+              "value": "FFFFFFD0"
+            },
+            {
+              "name": "pos",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "origin",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "size",
+              "value": "0.50 0.50"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "name": "gridtile.marquee:selected",
+          "props": [
+            {
+              "name": "color",
+              "value": "FFFFFFFF"
+            },
+            {
+              "name": "size",
+              "value": "0.65 0.65"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "name": "gridtile.marquee:videoplaying",
+          "props": [
+            {
+              "name": "color",
+              "value": "FFFFFFA0"
+            },
+            {
+              "name": "pos",
+              "value": "0.5 0.17"
+            },
+            {
+              "name": "size",
+              "value": "0.50 0.25"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "gridtile.text",
+          "props": [
+            {
+              "name": "pos",
+              "value": "0 0"
+            },
+            {
+              "name": "size",
+              "value": "1 1"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.040"
+            },
+            {
+              "name": "padding",
+              "value": "0.1 0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

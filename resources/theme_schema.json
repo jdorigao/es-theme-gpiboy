@@ -1,0 +1,2227 @@
+{
+  "auto_extra_types": [
+    "stackpanel",
+    "container",
+    "screenshader",
+    "clock",
+    "networkIcon",
+    "webimage",
+    "batteryText",
+    "batteryIcon",
+    "rectangle"
+  ],
+  "base_classes": [
+    {
+      "base": "text",
+      "type": "clock"
+    },
+    {
+      "base": "text",
+      "type": "batteryText"
+    },
+    {
+      "base": "image",
+      "type": "batteryIcon"
+    },
+    {
+      "base": "image",
+      "type": "networkIcon"
+    },
+    {
+      "base": "image",
+      "type": "webimage"
+    }
+  ],
+  "element_aliases": [
+    {
+      "alias": "itemTemplate",
+      "target": "control"
+    }
+  ],
+  "elements": [
+    {
+      "name": "splash",
+      "properties": [
+        {
+          "name": "backgroundColor",
+          "type": "COLOR"
+        }
+      ]
+    },
+    {
+      "name": "control",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaleOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "rotation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "rotationOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "offset",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "offsetX",
+          "type": "FLOAT"
+        },
+        {
+          "name": "offsetY",
+          "type": "FLOAT"
+        },
+        {
+          "name": "clipChildren",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "clipRect",
+          "type": "NORMALIZED_RECT"
+        }
+      ]
+    },
+    {
+      "name": "stackpanel",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "orientation",
+          "type": "STRING"
+        },
+        {
+          "name": "reverse",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "separator",
+          "type": "FLOAT"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "clipChildren",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "rectangle",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "borderColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "borderSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "roundCorners",
+          "type": "FLOAT"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "padding",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "clipChildren",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "screenshader",
+      "properties": [
+        {
+          "name": "path",
+          "type": "PATH"
+        },
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "clipRect",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "shader",
+      "properties": []
+    },
+    {
+      "name": "image",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaleOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "padding",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "offset",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "offsetX",
+          "type": "FLOAT"
+        },
+        {
+          "name": "offsetY",
+          "type": "FLOAT"
+        },
+        {
+          "name": "clipRect",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "maxSize",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "minSize",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "origin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "rotation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "rotationOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "path",
+          "type": "PATH"
+        },
+        {
+          "name": "default",
+          "type": "PATH"
+        },
+        {
+          "name": "tile",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "colorEnd",
+          "type": "COLOR"
+        },
+        {
+          "name": "gradientType",
+          "type": "STRING"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "reflexion",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "reflexionOnFrame",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "horizontalAlignment",
+          "type": "STRING"
+        },
+        {
+          "name": "verticalAlignment",
+          "type": "STRING"
+        },
+        {
+          "name": "roundCorners",
+          "type": "FLOAT"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "saturation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "flipX",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "flipY",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "autoFade",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "onclick",
+          "type": "STRING"
+        },
+        {
+          "name": "linearSmooth",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "shared",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "imagegrid",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaleOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "margin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "padding",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "cellProportion",
+          "type": "FLOAT"
+        },
+        {
+          "name": "autoLayout",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "autoLayoutSelectedZoom",
+          "type": "FLOAT"
+        },
+        {
+          "name": "animateSelection",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "imageSource",
+          "type": "STRING"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        },
+        {
+          "name": "gameImage",
+          "type": "PATH"
+        },
+        {
+          "name": "folderImage",
+          "type": "PATH"
+        },
+        {
+          "name": "logoBackgroundImage",
+          "type": "PATH"
+        },
+        {
+          "name": "showVideoAtDelay",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollDirection",
+          "type": "STRING"
+        },
+        {
+          "name": "scrollSound",
+          "type": "PATH"
+        },
+        {
+          "name": "scrollbarColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "scrollbarSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollbarCorner",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollbarAlignment",
+          "type": "STRING"
+        },
+        {
+          "name": "centerSelection",
+          "type": "STRING"
+        },
+        {
+          "name": "scrollLoop",
+          "type": "BOOLEAN"
+        }
+      ]
+    },
+    {
+      "name": "gridtile",
+      "properties": [
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "padding",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "imageColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "backgroundImage",
+          "type": "PATH"
+        },
+        {
+          "name": "backgroundCornerSize",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "backgroundColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "backgroundCenterColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "backgroundEdgeColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "selectionMode",
+          "type": "STRING"
+        },
+        {
+          "name": "imageSizeMode",
+          "type": "STRING"
+        },
+        {
+          "name": "reflexion",
+          "type": "NORMALIZED_PAIR"
+        }
+      ]
+    },
+    {
+      "name": "clock",
+      "properties": []
+    },
+    {
+      "name": "networkIcon",
+      "properties": [
+        {
+          "name": "networkIcon",
+          "type": "PATH"
+        },
+        {
+          "name": "planemodeIcon",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "webimage",
+      "properties": [
+        {
+          "name": "path",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "batteryText",
+      "properties": []
+    },
+    {
+      "name": "batteryIcon",
+      "properties": [
+        {
+          "name": "incharge",
+          "type": "PATH"
+        },
+        {
+          "name": "full",
+          "type": "PATH"
+        },
+        {
+          "name": "at75",
+          "type": "PATH"
+        },
+        {
+          "name": "at50",
+          "type": "PATH"
+        },
+        {
+          "name": "at25",
+          "type": "PATH"
+        },
+        {
+          "name": "empty",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "text",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "offset",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "offsetX",
+          "type": "FLOAT"
+        },
+        {
+          "name": "offsetY",
+          "type": "FLOAT"
+        },
+        {
+          "name": "clipRect",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaleOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "origin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "rotation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "rotationOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "text",
+          "type": "STRING"
+        },
+        {
+          "name": "emptyTextDefaults",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "backgroundColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "fontPath",
+          "type": "PATH"
+        },
+        {
+          "name": "fontSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "extraTextColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "alignment",
+          "type": "STRING"
+        },
+        {
+          "name": "verticalAlignment",
+          "type": "STRING"
+        },
+        {
+          "name": "forceUppercase",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "lineSpacing",
+          "type": "FLOAT"
+        },
+        {
+          "name": "value",
+          "type": "STRING"
+        },
+        {
+          "name": "reflexion",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "reflexionOnFrame",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "glowColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "glowSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "glowOffset",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "multiLine",
+          "type": "STRING"
+        },
+        {
+          "name": "singleLineScroll",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "autoScroll",
+          "type": "STRING"
+        },
+        {
+          "name": "autoScrollDelay",
+          "type": "FLOAT"
+        },
+        {
+          "name": "autoScrollSpeed",
+          "type": "FLOAT"
+        },
+        {
+          "name": "padding",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "onclick",
+          "type": "STRING"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "textlist",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaleOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "rotation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "rotationOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "origin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "selectorHeight",
+          "type": "FLOAT"
+        },
+        {
+          "name": "selectorOffsetY",
+          "type": "FLOAT"
+        },
+        {
+          "name": "selectorColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "selectorColorEnd",
+          "type": "COLOR"
+        },
+        {
+          "name": "selectorGradientType",
+          "type": "STRING"
+        },
+        {
+          "name": "selectorImagePath",
+          "type": "PATH"
+        },
+        {
+          "name": "selectorImageTile",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "selectedColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "primaryColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "secondaryColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "fontPath",
+          "type": "PATH"
+        },
+        {
+          "name": "fontSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollSound",
+          "type": "PATH"
+        },
+        {
+          "name": "alignment",
+          "type": "STRING"
+        },
+        {
+          "name": "horizontalMargin",
+          "type": "FLOAT"
+        },
+        {
+          "name": "forceUppercase",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "lineSpacing",
+          "type": "FLOAT"
+        },
+        {
+          "name": "lines",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollbarColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "scrollbarSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollbarCorner",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollbarAlignment",
+          "type": "STRING"
+        },
+        {
+          "name": "glowColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "glowSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "glowOffset",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "extraTextColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "extraTextSelectedColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "container",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "origin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "clipChildren",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "scaleOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "padding",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "ninepatch",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaleOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "rotation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "rotationOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "padding",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "path",
+          "type": "PATH"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "cornerSize",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "centerColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "edgeColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "animateColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "animateColorTime",
+          "type": "FLOAT"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "datetime",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaleOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "origin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "rotation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "rotationOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "backgroundColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "fontPath",
+          "type": "PATH"
+        },
+        {
+          "name": "fontSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "alignment",
+          "type": "STRING"
+        },
+        {
+          "name": "forceUppercase",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "lineSpacing",
+          "type": "FLOAT"
+        },
+        {
+          "name": "value",
+          "type": "STRING"
+        },
+        {
+          "name": "format",
+          "type": "STRING"
+        },
+        {
+          "name": "displayRelative",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "rating",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "offset",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "offsetX",
+          "type": "FLOAT"
+        },
+        {
+          "name": "offsetY",
+          "type": "FLOAT"
+        },
+        {
+          "name": "clipRect",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaleOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "value",
+          "type": "FLOAT"
+        },
+        {
+          "name": "padding",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "origin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "rotation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "rotationOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "unfilledColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "filledPath",
+          "type": "PATH"
+        },
+        {
+          "name": "unfilledPath",
+          "type": "PATH"
+        },
+        {
+          "name": "horizontalAlignment",
+          "type": "STRING"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "sound",
+      "properties": [
+        {
+          "name": "path",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "gameextras",
+      "properties": [
+        {
+          "name": "path",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "controllerActivity",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "itemSpacing",
+          "type": "FLOAT"
+        },
+        {
+          "name": "horizontalAlignment",
+          "type": "STRING"
+        },
+        {
+          "name": "imagePath",
+          "type": "PATH"
+        },
+        {
+          "name": "gunPath",
+          "type": "PATH"
+        },
+        {
+          "name": "wheelPath",
+          "type": "PATH"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "activityColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "hotkeyColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "networkIcon",
+          "type": "PATH"
+        },
+        {
+          "name": "planemodeIcon",
+          "type": "PATH"
+        },
+        {
+          "name": "incharge",
+          "type": "PATH"
+        },
+        {
+          "name": "full",
+          "type": "PATH"
+        },
+        {
+          "name": "at75",
+          "type": "PATH"
+        },
+        {
+          "name": "at50",
+          "type": "PATH"
+        },
+        {
+          "name": "at25",
+          "type": "PATH"
+        },
+        {
+          "name": "empty",
+          "type": "PATH"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "batteryIndicator",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "itemSpacing",
+          "type": "FLOAT"
+        },
+        {
+          "name": "horizontalAlignment",
+          "type": "STRING"
+        },
+        {
+          "name": "imagePath",
+          "type": "PATH"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "activityColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "hotkeyColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "networkIcon",
+          "type": "PATH"
+        },
+        {
+          "name": "planemodeIcon",
+          "type": "PATH"
+        },
+        {
+          "name": "incharge",
+          "type": "PATH"
+        },
+        {
+          "name": "full",
+          "type": "PATH"
+        },
+        {
+          "name": "at75",
+          "type": "PATH"
+        },
+        {
+          "name": "at50",
+          "type": "PATH"
+        },
+        {
+          "name": "at25",
+          "type": "PATH"
+        },
+        {
+          "name": "empty",
+          "type": "PATH"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        }
+      ]
+    },
+    {
+      "name": "helpsystem",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "origin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "textColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "iconColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "glowColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "glowSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "glowOffset",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "fontPath",
+          "type": "PATH"
+        },
+        {
+          "name": "fontSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "iconUpDown",
+          "type": "PATH"
+        },
+        {
+          "name": "iconLeftRight",
+          "type": "PATH"
+        },
+        {
+          "name": "iconUpDownLeftRight",
+          "type": "PATH"
+        },
+        {
+          "name": "iconA",
+          "type": "PATH"
+        },
+        {
+          "name": "iconB",
+          "type": "PATH"
+        },
+        {
+          "name": "iconX",
+          "type": "PATH"
+        },
+        {
+          "name": "iconY",
+          "type": "PATH"
+        },
+        {
+          "name": "iconL",
+          "type": "PATH"
+        },
+        {
+          "name": "iconR",
+          "type": "PATH"
+        },
+        {
+          "name": "iconStart",
+          "type": "PATH"
+        },
+        {
+          "name": "iconSelect",
+          "type": "PATH"
+        },
+        {
+          "name": "iconF1",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "video",
+      "properties": [
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "x",
+          "type": "FLOAT"
+        },
+        {
+          "name": "y",
+          "type": "FLOAT"
+        },
+        {
+          "name": "h",
+          "type": "FLOAT"
+        },
+        {
+          "name": "w",
+          "type": "FLOAT"
+        },
+        {
+          "name": "offset",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "offsetX",
+          "type": "FLOAT"
+        },
+        {
+          "name": "offsetY",
+          "type": "FLOAT"
+        },
+        {
+          "name": "clipRect",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "scale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaleOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "padding",
+          "type": "NORMALIZED_RECT"
+        },
+        {
+          "name": "opacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "origin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "rotation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "rotationOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "enabled",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        },
+        {
+          "name": "maxSize",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "minSize",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "default",
+          "type": "PATH"
+        },
+        {
+          "name": "path",
+          "type": "PATH"
+        },
+        {
+          "name": "delay",
+          "type": "FLOAT"
+        },
+        {
+          "name": "effect",
+          "type": "STRING"
+        },
+        {
+          "name": "roundCorners",
+          "type": "FLOAT"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "snapshotSource",
+          "type": "STRING"
+        },
+        {
+          "name": "defaultSnapshot",
+          "type": "PATH"
+        },
+        {
+          "name": "loops",
+          "type": "FLOAT"
+        },
+        {
+          "name": "audio",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "linearSmooth",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "saturation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "onclick",
+          "type": "STRING"
+        },
+        {
+          "name": "showSnapshotNoVideo",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "showSnapshotDelay",
+          "type": "BOOLEAN"
+        }
+      ]
+    },
+    {
+      "name": "carousel",
+      "properties": [
+        {
+          "name": "type",
+          "type": "STRING"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "origin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "colorEnd",
+          "type": "COLOR"
+        },
+        {
+          "name": "gradientType",
+          "type": "STRING"
+        },
+        {
+          "name": "logoScale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "logoRotation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "logoRotationOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "logoSize",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "logoPos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "logoAlignment",
+          "type": "STRING"
+        },
+        {
+          "name": "maxLogoCount",
+          "type": "FLOAT"
+        },
+        {
+          "name": "defaultTransition",
+          "type": "STRING"
+        },
+        {
+          "name": "minLogoOpacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "transitionSpeed",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaledLogoSpacing",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollSound",
+          "type": "PATH"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        },
+        {
+          "name": "systemInfoDelay",
+          "type": "FLOAT"
+        },
+        {
+          "name": "systemInfoCountOnly",
+          "type": "BOOLEAN"
+        }
+      ]
+    },
+    {
+      "name": "gamecarousel",
+      "properties": [
+        {
+          "name": "type",
+          "type": "STRING"
+        },
+        {
+          "name": "size",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "pos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "origin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "colorEnd",
+          "type": "COLOR"
+        },
+        {
+          "name": "gradientType",
+          "type": "STRING"
+        },
+        {
+          "name": "logoScale",
+          "type": "FLOAT"
+        },
+        {
+          "name": "logoRotation",
+          "type": "FLOAT"
+        },
+        {
+          "name": "logoRotationOrigin",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "logoSize",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "logoPos",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "logoAlignment",
+          "type": "STRING"
+        },
+        {
+          "name": "maxLogoCount",
+          "type": "FLOAT"
+        },
+        {
+          "name": "defaultTransition",
+          "type": "STRING"
+        },
+        {
+          "name": "minLogoOpacity",
+          "type": "FLOAT"
+        },
+        {
+          "name": "transitionSpeed",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scaledLogoSpacing",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollSound",
+          "type": "PATH"
+        },
+        {
+          "name": "zIndex",
+          "type": "FLOAT"
+        },
+        {
+          "name": "imageSource",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "menuText",
+      "properties": [
+        {
+          "name": "fontPath",
+          "type": "PATH"
+        },
+        {
+          "name": "fontSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "separatorColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "selectorColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "selectorColorEnd",
+          "type": "COLOR"
+        },
+        {
+          "name": "selectorGradientType",
+          "type": "STRING"
+        },
+        {
+          "name": "selectedColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        }
+      ]
+    },
+    {
+      "name": "menuTextSmall",
+      "properties": [
+        {
+          "name": "fontPath",
+          "type": "PATH"
+        },
+        {
+          "name": "fontSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        }
+      ]
+    },
+    {
+      "name": "menuGroup",
+      "properties": [
+        {
+          "name": "fontPath",
+          "type": "PATH"
+        },
+        {
+          "name": "fontSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "lineSpacing",
+          "type": "FLOAT"
+        },
+        {
+          "name": "alignment",
+          "type": "STRING"
+        },
+        {
+          "name": "backgroundColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "separatorColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "visible",
+          "type": "BOOLEAN"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        }
+      ]
+    },
+    {
+      "name": "menuBackground",
+      "properties": [
+        {
+          "name": "path",
+          "type": "PATH"
+        },
+        {
+          "name": "fadePath",
+          "type": "PATH"
+        },
+        {
+          "name": "color",
+          "type": "COLOR"
+        },
+        {
+          "name": "centerColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "cornerSize",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "scrollbarColor",
+          "type": "COLOR"
+        },
+        {
+          "name": "scrollbarSize",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollbarCorner",
+          "type": "FLOAT"
+        },
+        {
+          "name": "scrollbarAlignment",
+          "type": "STRING"
+        }
+      ]
+    },
+    {
+      "name": "menuIcons",
+      "properties": [
+        {
+          "name": "iconSystem",
+          "type": "PATH"
+        },
+        {
+          "name": "iconUpdates",
+          "type": "PATH"
+        },
+        {
+          "name": "iconControllers",
+          "type": "PATH"
+        },
+        {
+          "name": "iconGames",
+          "type": "PATH"
+        },
+        {
+          "name": "iconUI",
+          "type": "PATH"
+        },
+        {
+          "name": "iconSound",
+          "type": "PATH"
+        },
+        {
+          "name": "iconNetwork",
+          "type": "PATH"
+        },
+        {
+          "name": "iconScraper",
+          "type": "PATH"
+        },
+        {
+          "name": "iconAdvanced",
+          "type": "PATH"
+        },
+        {
+          "name": "iconQuit",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "menuSwitch",
+      "properties": [
+        {
+          "name": "pathOn",
+          "type": "PATH"
+        },
+        {
+          "name": "pathOff",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "menuTextEdit",
+      "properties": [
+        {
+          "name": "active",
+          "type": "PATH"
+        },
+        {
+          "name": "inactive",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "menuSlider",
+      "properties": [
+        {
+          "name": "path",
+          "type": "PATH"
+        }
+      ]
+    },
+    {
+      "name": "menuButton",
+      "properties": [
+        {
+          "name": "cornerSize",
+          "type": "NORMALIZED_PAIR"
+        },
+        {
+          "name": "path",
+          "type": "PATH"
+        },
+        {
+          "name": "filledPath",
+          "type": "PATH"
+        }
+      ]
+    }
+  ],
+  "features": [
+    "video",
+    "carousel",
+    "gamecarousel",
+    "z-index",
+    "visible",
+    "manufacturer"
+  ],
+  "item_templates": [
+    "imagegrid",
+    "carousel",
+    "gamecarousel",
+    "textlist"
+  ],
+  "schema_version": 1,
+  "views": [
+    "system",
+    "basic",
+    "detailed",
+    "grid",
+    "video",
+    "gamecarousel",
+    "menu",
+    "screen",
+    "splash"
+  ]
+}

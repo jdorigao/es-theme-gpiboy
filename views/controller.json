@@ -1,0 +1,224 @@
+{
+  "formatVersion": 7.0,
+  "nodes": [
+    {
+      "type": "view",
+      "name": "system",
+      "elements": [
+        {
+          "type": "text",
+          "name": "manufacturerName",
+          "extra": "static",
+          "props": [
+            {
+              "name": "text",
+              "value": "${system.sortedBy}"
+            },
+            {
+              "name": "alignment",
+              "value": "left"
+            },
+            {
+              "name": "fontPath",
+              "value": "${fontTextBase}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.07"
+            },
+            {
+              "name": "pos",
+              "value": "0.029 0.02"
+            },
+            {
+              "name": "size",
+              "value": "0.942 0.2"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "zIndex",
+              "value": "100"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "releaseYyear",
+          "extra": true,
+          "props": [
+            {
+              "name": "text",
+              "value": "${system.releaseYearOrNull}"
+            },
+            {
+              "name": "alignment",
+              "value": "left"
+            },
+            {
+              "name": "fontPath",
+              "value": "${fontTextBase}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.05"
+            },
+            {
+              "name": "pos",
+              "value": "0.03 0.08"
+            },
+            {
+              "name": "size",
+              "value": "0.94 0.2"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "zIndex",
+              "value": "100"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "systemInfo",
+          "props": [
+            {
+              "name": "alignment",
+              "value": "right"
+            },
+            {
+              "name": "fontPath",
+              "value": "${fontTextBase}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.05"
+            },
+            {
+              "name": "pos",
+              "value": "0.029 0.02"
+            },
+            {
+              "name": "size",
+              "value": "0.94 0.2"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "zIndex",
+              "value": "100"
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "name": "controller",
+          "extra": true,
+          "props": [
+            {
+              "name": "path",
+              "value": "./../art/controller/${system.theme}.svg"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "pos",
+              "value": "0.5 0.45"
+            },
+            {
+              "name": "origin",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "maxSize",
+              "value": "0.45 0.45"
+            }
+          ]
+        },
+        {
+          "type": "carousel",
+          "name": "systemcarousel",
+          "props": [
+            {
+              "name": "color",
+              "value": "FAFAFF00"
+            },
+            {
+              "name": "colorEnd",
+              "value": "FAFAFF00"
+            },
+            {
+              "name": "pos",
+              "value": "0.5 0.8"
+            },
+            {
+              "name": "origin",
+              "value": "0.5 0.5"
+            },
+            {
+              "name": "logoSize",
+              "value": "0.8 0.22"
+            },
+            {
+              "name": "maxLogoCount",
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "name": "logoText",
+          "props": [
+            {
+              "name": "fontPath",
+              "value": "${fontTextBase}"
+            },
+            {
+              "name": "fontSize",
+              "value": "0.08"
+            },
+            {
+              "name": "color",
+              "value": "${colorTextBase}"
+            },
+            {
+              "name": "forceUppercase",
+              "value": true
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "name": "carousel-inner",
+          "extra": true,
+          "props": [
+            {
+              "name": "visible",
+              "value": false
+            }
+          ]
+        },
+        {
+          "type": "image",
+          "name": "carousel-shadow",
+          "extra": true,
+          "props": [
+            {
+              "name": "visible",
+              "value": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
