@@ -35,11 +35,11 @@
             },
             {
               "name": "activityColor",
-              "value": "003E0A"
+              "value": "#003e0a"
             },
             {
               "name": "hotkeyColor",
-              "value": "82A314"
+              "value": "#82a314"
             }
           ]
         },

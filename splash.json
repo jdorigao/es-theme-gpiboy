@@ -71,11 +71,11 @@
           "props": [
             {
               "name": "color",
-              "value": "4246427F"
+              "value": "#4246427f"
             },
             {
               "name": "colorEnd",
-              "value": "4246427F"
+              "value": "#4246427f"
             },
             {
               "name": "roundCorners",

@@ -3,7 +3,6 @@
 theme name:		GPIBoy
 author:			Juliano Dorigão
 -->
-
 <theme>
     <formatVersion>7</formatVersion>
 	<view name="system">
@@ -17,7 +16,7 @@ author:			Juliano Dorigão
             <size>0.693 0</size>
         </text>
 
-        <text name="releaseYyear" extra="true">
+        <text name="releaseYear" extra="true">
             <color>${colorTextBase}</color>
             <text>${system.releaseYearOrNull}</text>
             <alignment>left</alignment>
@@ -49,8 +48,8 @@ author:			Juliano Dorigão
       	</image>
 
 		<carousel name="systemcarousel">
-			<color>FAFAFF00</color>
-			<colorEnd>FAFAFF00</colorEnd>
+			<color>#fafaff00</color>
+			<colorEnd>#fafaff00</colorEnd>
 			<pos>0 0</pos>
             <size>1 1</size>
 			<logoSize>0.5 0.5</logoSize>

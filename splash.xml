@@ -34,8 +34,8 @@ author:			Juliano Dorigão
         </text>
 
         <image name="progressbar">
-            <color>4246427F</color>
-            <colorEnd>4246427F</colorEnd>
+            <color>#4246427f</color>
+            <colorEnd>#4246427f</colorEnd>
             <roundCorners>0.02</roundCorners>
         </image>
 

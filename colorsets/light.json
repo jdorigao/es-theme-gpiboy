@@ -3,35 +3,35 @@
   "variables": [
     {
       "key": "colorTextBase",
-      "value": "101010"
+      "value": "#101010"
     },
     {
       "key": "colorLogoBase",
-      "value": "101010"
+      "value": "#101010"
     },
     {
       "key": "colorBackground",
-      "value": "858585"
+      "value": "#858585"
     },
     {
       "key": "separatorColorBase",
-      "value": "707070"
+      "value": "#707070"
+    },
+    {
+      "key": "selectorColorBase",
+      "value": "#ffffff"
     },
     {
       "key": "selectedColorBase",
-      "value": "DDDDDD"
-    },
-    {
-      "key": "selectedColorBase",
-      "value": "ffffff"
+      "value": "#ffffff"
     },
     {
       "key": "menuGroupColorBase",
-      "value": "000000"
+      "value": "#000000"
     },
     {
       "key": "menuGroupBackgroundColor",
-      "value": "616161"
+      "value": "#616161"
     }
   ]
 }

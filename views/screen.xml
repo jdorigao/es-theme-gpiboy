@@ -3,7 +3,6 @@
 theme name:		GPIBoy
 author:			Juliano Dorigão
 -->
-
 <theme>
     <formatVersion>7</formatVersion>
     <view name="screen">
@@ -14,8 +13,8 @@ author:			Juliano Dorigão
 			<itemSpacing>0.003</itemSpacing>
 			<color>${colorTextBase}</color>
 			<imagePath>./../art/icons/gamepad.svg</imagePath>
-			<activityColor>003E0A</activityColor>
-			<hotkeyColor>82A314</hotkeyColor>
+			<activityColor>#003e0a</activityColor>
+			<hotkeyColor>#82a314</hotkeyColor>
 		</controllerActivity>
 
 		<batteryIndicator name="batteryIndicator">

@@ -46,7 +46,7 @@
         },
         {
           "type": "text",
-          "name": "releaseYyear",
+          "name": "releaseYear",
           "extra": true,
           "props": [
             {
@@ -150,11 +150,11 @@
           "props": [
             {
               "name": "color",
-              "value": "FAFAFF00"
+              "value": "#fafaff00"
             },
             {
               "name": "colorEnd",
-              "value": "FAFAFF00"
+              "value": "#fafaff00"
             },
             {
               "name": "pos",

@@ -3,20 +3,19 @@
 theme name:		GPIBoy
 author:			Juliano Dorigão
 -->
-
 <theme>
     <formatVersion>7</formatVersion>
         <variables>
             <!-- System -->
-            <colorTextBase>a2a2a2</colorTextBase>
-            <colorLogoBase>a2a2a2</colorLogoBase>
-            <colorBackground>2b2b2b</colorBackground>
+            <colorTextBase>#a2a2a2</colorTextBase>
+            <colorLogoBase>#a2a2a2</colorLogoBase>
+            <colorBackground>#2b2b2b</colorBackground>
 
             <!-- Menu -->
-            <separatorColorBase>2e2e2e</separatorColorBase>
-            <selectorColorBase>535353</selectorColorBase>
-            <selectedColorBase>ffffff</selectedColorBase>
-            <menuGroupColorBase>ffffff</menuGroupColorBase>
-            <menuGroupBackgroundColor>212121</menuGroupBackgroundColor>
+            <separatorColorBase>#2e2e2e</separatorColorBase>
+            <selectorColorBase>#535353</selectorColorBase>
+            <selectedColorBase>#ffffff</selectedColorBase>
+            <menuGroupColorBase>#ffffff</menuGroupColorBase>
+            <menuGroupBackgroundColor>#212121</menuGroupBackgroundColor>
         </variables>
 </theme>

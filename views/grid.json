@@ -75,15 +75,15 @@
           "props": [
             {
               "name": "backgroundColor",
-              "value": "00000000"
+              "value": "#00000000"
             },
             {
               "name": "backgroundCenterColor",
-              "value": "00000000"
+              "value": "#00000000"
             },
             {
               "name": "backgroundEdgeColor",
-              "value": "00000000"
+              "value": "#00000000"
             },
             {
               "name": "backgroundCornerSize",
@@ -101,7 +101,7 @@
           "props": [
             {
               "name": "color",
-              "value": "FFFFFFD0"
+              "value": "#ffffffd0"
             },
             {
               "name": "pos",
@@ -123,7 +123,7 @@
           "props": [
             {
               "name": "color",
-              "value": "FFFFFFFF"
+              "value": "#ffffffff"
             },
             {
               "name": "size",
@@ -137,7 +137,7 @@
           "props": [
             {
               "name": "color",
-              "value": "FFFFFFA0"
+              "value": "#ffffffa0"
             },
             {
               "name": "pos",
