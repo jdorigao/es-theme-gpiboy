@@ -11,7 +11,7 @@
           "props": [
             {
               "name": "fontPath",
-              "value": "${fontMenuBold}"
+              "value": "${fontBold}"
             },
             {
               "name": "fontSize",
@@ -29,7 +29,7 @@
           "props": [
             {
               "name": "fontPath",
-              "value": "${fontMenuRegular}"
+              "value": "${fontRegular}"
             },
             {
               "name": "fontSize",
@@ -47,7 +47,7 @@
           "props": [
             {
               "name": "fontPath",
-              "value": "${fontMenuRegular}"
+              "value": "${fontRegular}"
             },
             {
               "name": "fontSize",
@@ -80,7 +80,7 @@
           "props": [
             {
               "name": "fontPath",
-              "value": "${fontMenuRegular}"
+              "value": "${fontRegular}"
             },
             {
               "name": "fontSize",
@@ -98,7 +98,7 @@
           "props": [
             {
               "name": "fontPath",
-              "value": "${fontMenuBold}"
+              "value": "${fontBold}"
             },
             {
               "name": "fontSize",

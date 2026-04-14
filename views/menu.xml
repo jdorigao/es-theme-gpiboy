@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
 <theme>
     <formatVersion>7</formatVersion>
     <view name="menu">
         <menuText name="menutitle">
-            <fontPath>${fontMenuBold}</fontPath>
+            <fontPath>${fontBold}</fontPath>
             <fontSize>0.044</fontSize>
             <color>${colorTextBase}</color>
         </menuText>
 
         <menuText name="menufooter">
-            <fontPath>${fontMenuRegular}</fontPath>
+            <fontPath>${fontRegular}</fontPath>
             <fontSize>0.02</fontSize>
             <color>${colorTextBase}</color>
         </menuText>
 
         <menuText name="menutext">
-            <fontPath>${fontMenuRegular}</fontPath>
+            <fontPath>${fontRegular}</fontPath>
             <fontSize>0.0325</fontSize>
             <fontSize tinyScreen="true">0.034</fontSize>
             <color>${colorTextBase}</color>
@@ -25,13 +24,13 @@
         </menuText>
 
         <menuTextSmall name="menutextsmall">
-            <fontPath>${fontMenuRegular}</fontPath>
+            <fontPath>${fontRegular}</fontPath>
             <fontSize>0.025</fontSize>
             <color>${colorTextBase}</color>
         </menuTextSmall>
 
         <menuGroup name="menugroup">
-            <fontPath>${fontMenuBold}</fontPath>
+            <fontPath>${fontBold}</fontPath>
             <fontSize>0.033</fontSize>
             <color>${menuGroupColorBase}</color>
             <separatorColor>${menuGroupColorBase}</separatorColor>
@@ -59,7 +58,8 @@
             <iconRestart>./../art/icons/Restart.svg</iconRestart>
             <iconShutdown>./../art/icons/Shutdown.svg</iconShutdown>
             <iconFastShutdown>./../art/icons/Fastshutdown.svg</iconFastShutdown>
-            <iconRetroachievements>./../art/icons/Contest.svg</iconRetroachievements>
+            <iconRetroachievements
+            >./../art/icons/Contest.svg</iconRetroachievements>
             <iconManual>./../art/icons/Manual.svg</iconManual>
         </menuIcons>
 

@@ -3,15 +3,13 @@
 theme name:		GPIBoy
 author:			Juliano Dorigão
 -->
-
 <theme>
     <formatVersion>7</formatVersion>
         <variables>
             <!-- Font -->
             <fontTextBase>./fonts/arcade.ttf</fontTextBase>
             <fontTextClock>./fonts/ds-digib.ttf</fontTextClock>
-            <fontMenuBold>./fonts/cabin-bold.ttf</fontMenuBold>
-            <fontMenuRegular>./fonts/cabin-regular.ttf</fontMenuRegular>
-            <fontPlayers>./fonts/players.ttf</fontPlayers>
+            <fontBold>./fonts/arcade.ttf</fontBold>
+            <fontRegular>./fonts/arcade.ttf</fontRegular>
         </variables>
 </theme>

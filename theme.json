@@ -118,7 +118,7 @@
             },
             {
               "name": "fontPath",
-              "value": "${fontMenuRegular}"
+              "value": "${fontRegular}"
             },
             {
               "name": "fontSize",
@@ -247,7 +247,7 @@
             },
             {
               "name": "fontPath",
-              "value": "${fontMenuRegular}"
+              "value": "${fontRegular}"
             },
             {
               "name": "fontSize",

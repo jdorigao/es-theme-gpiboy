@@ -10,16 +10,12 @@
       "value": "./fonts/ds-digib.ttf"
     },
     {
-      "key": "fontMenuBold",
-      "value": "./fonts/cabin-bold.ttf"
+      "key": "fontBold",
+      "value": "./fonts/arcade.ttf"
     },
     {
-      "key": "fontMenuRegular",
-      "value": "./fonts/cabin-regular.ttf"
-    },
-    {
-      "key": "fontPlayers",
-      "value": "./fonts/players.ttf"
+      "key": "fontRegular",
+      "value": "./fonts/arcade.ttf"
     }
   ]
 }
